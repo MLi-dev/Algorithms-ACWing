@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "/Users/matthew/Dev/Algorithms-ACWing/aw788_inversepair/output",
+		"source" : "aw788_inversepair"
+	}
+}

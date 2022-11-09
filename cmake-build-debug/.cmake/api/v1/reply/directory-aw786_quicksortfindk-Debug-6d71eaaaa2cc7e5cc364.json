@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "/Users/matthew/Dev/Algorithms-ACWing/aw786_quicksortfindk/output",
+		"source" : "aw786_quicksortfindk"
+	}
+}

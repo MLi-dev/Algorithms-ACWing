@@ -1,0 +1,151 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "/Users/matthew/Dev/Algorithms-ACWing/aw785_quicksort/output",
+					"jsonFile" : "directory-aw785_quicksort-Debug-811cad3d279875b0d529.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "aw785_quicksort",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "/Users/matthew/Dev/Algorithms-ACWing/aw786_quicksortfindk/output",
+					"jsonFile" : "directory-aw786_quicksortfindk-Debug-6d71eaaaa2cc7e5cc364.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "aw786_quicksortfindk",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "/Users/matthew/Dev/Algorithms-ACWing/aw787_mergesort/output",
+					"jsonFile" : "directory-aw787_mergesort-Debug-6e0aeebe504953d3a87f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "aw787_mergesort",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "/Users/matthew/Dev/Algorithms-ACWing/aw788_inversepair/output",
+					"jsonFile" : "directory-aw788_inversepair-Debug-e6ac2ad44f000a17546c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "aw788_inversepair",
+					"targetIndexes" : 
+					[
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					],
+					"name" : "Algorithms_ACWing",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "aw785_quicksort::@d7ff453de4338fbc6a1d",
+					"jsonFile" : "target-aw785_quicksort-Debug-55dbc098583cab694804.json",
+					"name" : "aw785_quicksort",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "aw786_quicksortfindk::@1bf58fcf36dd87afe573",
+					"jsonFile" : "target-aw786_quicksortfindk-Debug-b8e7bae96e48352f79f5.json",
+					"name" : "aw786_quicksortfindk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "aw787_quicksort::@36d280bd553d271b2d55",
+					"jsonFile" : "target-aw787_quicksort-Debug-b4401f3a7412cfc94c34.json",
+					"name" : "aw787_quicksort",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "aw788_inversepair::@396a4d420499c8fb97ed",
+					"jsonFile" : "target-aw788_inversepair-Debug-9a9d1f315803f5b09d15.json",
+					"name" : "aw788_inversepair",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/matthew/Dev/Algorithms-ACWing/cmake-build-debug",
+		"source" : "/Users/matthew/Dev/Algorithms-ACWing"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,29 @@
+Given an integer array length n
+Please use merge sort to sort in Ascending order the print in order
+
+Keywords: Temp array, recursion, remaining elements.
+
+Things to remember:
+1. Recursion first, both parts
+2. Three pointers, i for left side of array, j right side, k temp array.
+3. Condition: i<=mid && j<=r.
+4. If left/right side runs out of values to compare, move all remaining elements of q into temp.
+5. Must move from temp array back to original array. for(int i = l, j =0; i<=r; i++, j++)
+6. Need an "else" to cover all remaining possible conditions
+
+Input
+line 1: number
+line 2: n integers
+
+Output
+sorted integers
+
+Range
+1<=n<=100000
+
+Sample Input:
+5
+3 1 2 4 5
+
+Sample output:
+1 2 3 4 5

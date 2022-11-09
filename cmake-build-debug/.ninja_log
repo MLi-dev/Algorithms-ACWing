@@ -1,0 +1,13 @@
+# ninja log v5
+0	624	1667840463712956988	CMakeFiles/Algorithms_ACWing.dir/main.cpp.o	fe349e5b6d7f0f5b
+1	974	1667886738800795221	../aw785_quicksort/output/CMakeFiles/aw785_quicksort.dir/QuickSort.cpp.o	4c031f4743fe29bb
+625	718	1667840463808745531	Algorithms_ACWing	f1b41dca4765d210
+0	671	1667976795881568272	../aw787_mergesort/output/CMakeFiles/aw787_quicksort.dir/MergeSort.cpp.o	4d85202880c9fc9d
+671	762	1667976795975307137	../aw787_mergesort/output/aw787_quicksort	a89b1b9f9b1630f5
+974	1104	1667886738932529014	../aw785_quicksort/output/aw785_quicksort	3746fb9d69bbed29
+0	630	1668017155924345420	../aw786_quicksortfindk/output/CMakeFiles/aw786_quicksortfindk.dir/QuickSortFindk.cpp.o	e5a155a5319c54b
+630	725	1668017156021569770	../aw786_quicksortfindk/output/aw786_quicksortfindk	e3f3592e1d3c0b6c
+0	636	1668018381269831299	../aw788_inversepair/output/CMakeFiles/aw788_inversepair.dir/InversePair.cpp.o	7709aa9dcd3d568d
+636	728	1668018381363459347	../aw788_inversepair/output/aw788_inversepair	8f7d39545eb5323f
+1	689	1668019344349016173	../aw788_inversepair/output/CMakeFiles/aw788_inversepair.dir/InversePair.cpp.o	7709aa9dcd3d568d
+689	797	1668019344458172601	../aw788_inversepair/output/aw788_inversepair	8f7d39545eb5323f
