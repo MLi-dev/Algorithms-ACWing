@@ -5,6 +5,9 @@ Input
 line 1: n, k
 line 2: n integers
 
+Things to consider:
+1. If taking in more than 1 int variable at a time, do scanf("%d%d", )
+
 Output
 kth number
 

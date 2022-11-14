@@ -10,21 +10,21 @@ LL mergeSort(int q[], int l, int r) {
     }
     int mid = (l+r)>>1;
     LL resp = mergeSort(q, l, mid) + mergeSort(q, mid+1, r);
-    int i = l, j = mid+1, k = 0;
-    while(i<=mid && j<= r) {
+    int i = l, j = mid+1, k=0;
+    while(i<=mid && j<=r) {
         if(q[i] <= q[j]) temp[k++] = q[i++];
         else {
             temp[k++] = q[j++];
             resp += mid-i+1;
         }
     }
-    while(i<= mid) {
+    while(i<=mid) {
         temp[k++] = q[i++];
     }
-    while(j<=r) {
+    while(j <= r) {
         temp[k++] = q[j++];
     }
-    for(int i = l, j=0; i<=r; i++, j++) {
+    for(int i = l, j = 0; i<=r; i++, j++) {
         q[i] = temp[j];
     }
     return resp;
@@ -36,7 +36,6 @@ int main() {
     for(int i = 1; i<=n; i++) {
         scanf("%d", &q[i]);
     }
-   LL numPairs = mergeSort(q, 1, n);
-    printf("%ld ", numPairs);
-    return 0;
+    LL resp = mergeSort(q, 1, n);
+    printf("%d ", resp);
 }

@@ -1,0 +1,25 @@
+Given a float number n, ask for the cube root
+
+
+Input
+n is the float number
+
+Output
+The answer (need to keep 6 digits after decimal)
+
+Range
+-10000 <=n <=10000
+
+Input
+1000.00
+
+Output
+10.000000
+
+Things to Remember:
+1. To take double as input, do scanf("%lf", )
+2. Binary search for double, sets l = mid, r = mid.
+3. while(r-l>1e-8)
+4. double mid = (l+r)/2
+5. Print result, printf("%.6lf", ). Indicates how many digits trail decimal point.
+6. if(mid*mid*mid) < target

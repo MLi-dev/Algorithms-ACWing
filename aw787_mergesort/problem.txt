@@ -8,7 +8,7 @@ Things to remember:
 2. Three pointers, i for left side of array, j right side, k temp array.
 3. Condition: i<=mid && j<=r.
 4. If left/right side runs out of values to compare, move all remaining elements of q into temp.
-5. Must move from temp array back to original array. for(int i = l, j =0; i<=r; i++, j++)
+*5. Must move from temp array back to original array. for(int i = l, j =0; i<=r; i++, j++)
 6. Need an "else" to cover all remaining possible conditions
 
 Input

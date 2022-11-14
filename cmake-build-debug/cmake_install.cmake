@@ -57,6 +57,31 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/Users/matthew/Dev/Algorithms-ACWing/aw788_inversepair/output/cmake_install.cmake")
 endif()
 
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/Users/matthew/Dev/Algorithms-ACWing/aw789_bs_range/output/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/Users/matthew/Dev/Algorithms-ACWing/aw790_bs_root_cubed/output/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/Users/matthew/Dev/Algorithms-ACWing/aw1097_flood_fill_lakes/output/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/Users/matthew/Dev/Algorithms-ACWing/aw1098_castle_rooms/output/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/Users/matthew/Dev/Algorithms-ACWing/aw1106_peak_bfs/output/cmake_install.cmake")
+endif()
+
 if(CMAKE_INSTALL_COMPONENT)
   set(CMAKE_INSTALL_MANIFEST "install_manifest_${CMAKE_INSTALL_COMPONENT}.txt")
 else()

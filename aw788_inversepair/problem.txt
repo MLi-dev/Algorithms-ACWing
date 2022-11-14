@@ -12,9 +12,9 @@ Things to Remember:
 1. Use Long
 2. typedef long long LL;
 3. printf("%ld", ); Use for longs.
-4. response+=mid-i+1;
+4. inversePairs = mergeSort(q, l, mid) + mergeSort(q, mid+1, r);
 5. if(q[i]<=q[j]) {}
-6.
+6. inversePairs+=mid-i+1;
 
 Range
 1<=n<=1000000

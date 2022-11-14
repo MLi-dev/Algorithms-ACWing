@@ -9,7 +9,7 @@ void quickSort(int q[], int l, int r) {
     }
     int pivot = q[(l+r)>>1];
     int i = l-1, j = r+1;
-    while(i<=j) {
+    while(i<j) {
         do i++; while(q[i] < pivot);
         do j--; while(q[j] > pivot);
         if(i<j) swap(q[i], q[j]);

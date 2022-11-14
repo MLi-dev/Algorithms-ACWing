@@ -300,7 +300,308 @@ build ../aw788_inversepair/output/aw788_inversepair: CXX_EXECUTABLE_LINKER__aw78
   TARGET_PDB = aw788_inversepair.dbg
 
 # =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/matthew/Dev/Algorithms-ACWing/CMakeLists.txt
+# =============================================================================
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build ../aw789_bs_range/output/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/matthew/Dev/Algorithms-ACWing/aw789_bs_range/output && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/matthew/Dev/Algorithms-ACWing -B/Users/matthew/Dev/Algorithms-ACWing/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build ../aw789_bs_range/output/rebuild_cache: phony ../aw789_bs_range/output/CMakeFiles/rebuild_cache.util
+
+
+#############################################
+# Utility command for edit_cache
+
+build ../aw789_bs_range/output/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/matthew/Dev/Algorithms-ACWing/aw789_bs_range/output && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build ../aw789_bs_range/output/edit_cache: phony ../aw789_bs_range/output/CMakeFiles/edit_cache.util
+
+# =============================================================================
+# Object build statements for EXECUTABLE target aw789_bs_range
+
+
+#############################################
+# Order-only phony target for aw789_bs_range
+
+build cmake_object_order_depends_target_aw789_bs_range: phony || ../aw789_bs_range/output/CMakeFiles/aw789_bs_range.dir
+
+build ../aw789_bs_range/output/CMakeFiles/aw789_bs_range.dir/BsRange.cpp.o: CXX_COMPILER__aw789_bs_range_Debug /Users/matthew/Dev/Algorithms-ACWing/aw789_bs_range/BsRange.cpp || cmake_object_order_depends_target_aw789_bs_range
+  DEP_FILE = ../aw789_bs_range/output/CMakeFiles/aw789_bs_range.dir/BsRange.cpp.o.d
+  FLAGS = -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++14
+  OBJECT_DIR = ../aw789_bs_range/output/CMakeFiles/aw789_bs_range.dir
+  OBJECT_FILE_DIR = ../aw789_bs_range/output/CMakeFiles/aw789_bs_range.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target aw789_bs_range
+
+
+#############################################
+# Link the executable ../aw789_bs_range/output/aw789_bs_range
+
+build ../aw789_bs_range/output/aw789_bs_range: CXX_EXECUTABLE_LINKER__aw789_bs_range_Debug ../aw789_bs_range/output/CMakeFiles/aw789_bs_range.dir/BsRange.cpp.o
+  FLAGS = -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = ../aw789_bs_range/output/CMakeFiles/aw789_bs_range.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ../aw789_bs_range/output/aw789_bs_range
+  TARGET_PDB = aw789_bs_range.dbg
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/matthew/Dev/Algorithms-ACWing/CMakeLists.txt
+# =============================================================================
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build ../aw790_bs_root_cubed/output/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/matthew/Dev/Algorithms-ACWing/aw790_bs_root_cubed/output && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/matthew/Dev/Algorithms-ACWing -B/Users/matthew/Dev/Algorithms-ACWing/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build ../aw790_bs_root_cubed/output/rebuild_cache: phony ../aw790_bs_root_cubed/output/CMakeFiles/rebuild_cache.util
+
+
+#############################################
+# Utility command for edit_cache
+
+build ../aw790_bs_root_cubed/output/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/matthew/Dev/Algorithms-ACWing/aw790_bs_root_cubed/output && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build ../aw790_bs_root_cubed/output/edit_cache: phony ../aw790_bs_root_cubed/output/CMakeFiles/edit_cache.util
+
+# =============================================================================
+# Object build statements for EXECUTABLE target aw790_bs_root_cubed
+
+
+#############################################
+# Order-only phony target for aw790_bs_root_cubed
+
+build cmake_object_order_depends_target_aw790_bs_root_cubed: phony || ../aw790_bs_root_cubed/output/CMakeFiles/aw790_bs_root_cubed.dir
+
+build ../aw790_bs_root_cubed/output/CMakeFiles/aw790_bs_root_cubed.dir/BsRange.cpp.o: CXX_COMPILER__aw790_bs_root_cubed_Debug /Users/matthew/Dev/Algorithms-ACWing/aw790_bs_root_cubed/BsRange.cpp || cmake_object_order_depends_target_aw790_bs_root_cubed
+  DEP_FILE = ../aw790_bs_root_cubed/output/CMakeFiles/aw790_bs_root_cubed.dir/BsRange.cpp.o.d
+  FLAGS = -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++14
+  OBJECT_DIR = ../aw790_bs_root_cubed/output/CMakeFiles/aw790_bs_root_cubed.dir
+  OBJECT_FILE_DIR = ../aw790_bs_root_cubed/output/CMakeFiles/aw790_bs_root_cubed.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target aw790_bs_root_cubed
+
+
+#############################################
+# Link the executable ../aw790_bs_root_cubed/output/aw790_bs_root_cubed
+
+build ../aw790_bs_root_cubed/output/aw790_bs_root_cubed: CXX_EXECUTABLE_LINKER__aw790_bs_root_cubed_Debug ../aw790_bs_root_cubed/output/CMakeFiles/aw790_bs_root_cubed.dir/BsRange.cpp.o
+  FLAGS = -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = ../aw790_bs_root_cubed/output/CMakeFiles/aw790_bs_root_cubed.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ../aw790_bs_root_cubed/output/aw790_bs_root_cubed
+  TARGET_PDB = aw790_bs_root_cubed.dbg
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/matthew/Dev/Algorithms-ACWing/CMakeLists.txt
+# =============================================================================
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build ../aw1097_flood_fill_lakes/output/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/matthew/Dev/Algorithms-ACWing/aw1097_flood_fill_lakes/output && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/matthew/Dev/Algorithms-ACWing -B/Users/matthew/Dev/Algorithms-ACWing/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build ../aw1097_flood_fill_lakes/output/rebuild_cache: phony ../aw1097_flood_fill_lakes/output/CMakeFiles/rebuild_cache.util
+
+
+#############################################
+# Utility command for edit_cache
+
+build ../aw1097_flood_fill_lakes/output/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/matthew/Dev/Algorithms-ACWing/aw1097_flood_fill_lakes/output && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build ../aw1097_flood_fill_lakes/output/edit_cache: phony ../aw1097_flood_fill_lakes/output/CMakeFiles/edit_cache.util
+
+# =============================================================================
+# Object build statements for EXECUTABLE target aw1097_flood_fill_lakes
+
+
+#############################################
+# Order-only phony target for aw1097_flood_fill_lakes
+
+build cmake_object_order_depends_target_aw1097_flood_fill_lakes: phony || ../aw1097_flood_fill_lakes/output/CMakeFiles/aw1097_flood_fill_lakes.dir
+
+build ../aw1097_flood_fill_lakes/output/CMakeFiles/aw1097_flood_fill_lakes.dir/FloodFillLakes.cpp.o: CXX_COMPILER__aw1097_flood_fill_lakes_Debug /Users/matthew/Dev/Algorithms-ACWing/aw1097_flood_fill_lakes/FloodFillLakes.cpp || cmake_object_order_depends_target_aw1097_flood_fill_lakes
+  DEP_FILE = ../aw1097_flood_fill_lakes/output/CMakeFiles/aw1097_flood_fill_lakes.dir/FloodFillLakes.cpp.o.d
+  FLAGS = -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++14
+  OBJECT_DIR = ../aw1097_flood_fill_lakes/output/CMakeFiles/aw1097_flood_fill_lakes.dir
+  OBJECT_FILE_DIR = ../aw1097_flood_fill_lakes/output/CMakeFiles/aw1097_flood_fill_lakes.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target aw1097_flood_fill_lakes
+
+
+#############################################
+# Link the executable ../aw1097_flood_fill_lakes/output/aw1097_flood_fill_lakes
+
+build ../aw1097_flood_fill_lakes/output/aw1097_flood_fill_lakes: CXX_EXECUTABLE_LINKER__aw1097_flood_fill_lakes_Debug ../aw1097_flood_fill_lakes/output/CMakeFiles/aw1097_flood_fill_lakes.dir/FloodFillLakes.cpp.o
+  FLAGS = -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = ../aw1097_flood_fill_lakes/output/CMakeFiles/aw1097_flood_fill_lakes.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ../aw1097_flood_fill_lakes/output/aw1097_flood_fill_lakes
+  TARGET_PDB = aw1097_flood_fill_lakes.dbg
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/matthew/Dev/Algorithms-ACWing/CMakeLists.txt
+# =============================================================================
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build ../aw1098_castle_rooms/output/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/matthew/Dev/Algorithms-ACWing/aw1098_castle_rooms/output && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/matthew/Dev/Algorithms-ACWing -B/Users/matthew/Dev/Algorithms-ACWing/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build ../aw1098_castle_rooms/output/rebuild_cache: phony ../aw1098_castle_rooms/output/CMakeFiles/rebuild_cache.util
+
+
+#############################################
+# Utility command for edit_cache
+
+build ../aw1098_castle_rooms/output/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/matthew/Dev/Algorithms-ACWing/aw1098_castle_rooms/output && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build ../aw1098_castle_rooms/output/edit_cache: phony ../aw1098_castle_rooms/output/CMakeFiles/edit_cache.util
+
+# =============================================================================
+# Object build statements for EXECUTABLE target aw1098_castle_rooms
+
+
+#############################################
+# Order-only phony target for aw1098_castle_rooms
+
+build cmake_object_order_depends_target_aw1098_castle_rooms: phony || ../aw1098_castle_rooms/output/CMakeFiles/aw1098_castle_rooms.dir
+
+build ../aw1098_castle_rooms/output/CMakeFiles/aw1098_castle_rooms.dir/NumCastleRooms.cpp.o: CXX_COMPILER__aw1098_castle_rooms_Debug /Users/matthew/Dev/Algorithms-ACWing/aw1098_castle_rooms/NumCastleRooms.cpp || cmake_object_order_depends_target_aw1098_castle_rooms
+  DEP_FILE = ../aw1098_castle_rooms/output/CMakeFiles/aw1098_castle_rooms.dir/NumCastleRooms.cpp.o.d
+  FLAGS = -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++14
+  OBJECT_DIR = ../aw1098_castle_rooms/output/CMakeFiles/aw1098_castle_rooms.dir
+  OBJECT_FILE_DIR = ../aw1098_castle_rooms/output/CMakeFiles/aw1098_castle_rooms.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target aw1098_castle_rooms
+
+
+#############################################
+# Link the executable ../aw1098_castle_rooms/output/aw1098_castle_rooms
+
+build ../aw1098_castle_rooms/output/aw1098_castle_rooms: CXX_EXECUTABLE_LINKER__aw1098_castle_rooms_Debug ../aw1098_castle_rooms/output/CMakeFiles/aw1098_castle_rooms.dir/NumCastleRooms.cpp.o
+  FLAGS = -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = ../aw1098_castle_rooms/output/CMakeFiles/aw1098_castle_rooms.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ../aw1098_castle_rooms/output/aw1098_castle_rooms
+  TARGET_PDB = aw1098_castle_rooms.dbg
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/matthew/Dev/Algorithms-ACWing/CMakeLists.txt
+# =============================================================================
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build ../aw1106_peak_bfs/output/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/matthew/Dev/Algorithms-ACWing/aw1106_peak_bfs/output && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/matthew/Dev/Algorithms-ACWing -B/Users/matthew/Dev/Algorithms-ACWing/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build ../aw1106_peak_bfs/output/rebuild_cache: phony ../aw1106_peak_bfs/output/CMakeFiles/rebuild_cache.util
+
+
+#############################################
+# Utility command for edit_cache
+
+build ../aw1106_peak_bfs/output/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/matthew/Dev/Algorithms-ACWing/aw1106_peak_bfs/output && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build ../aw1106_peak_bfs/output/edit_cache: phony ../aw1106_peak_bfs/output/CMakeFiles/edit_cache.util
+
+# =============================================================================
+# Object build statements for EXECUTABLE target aw1106_peak_bfs
+
+
+#############################################
+# Order-only phony target for aw1106_peak_bfs
+
+build cmake_object_order_depends_target_aw1106_peak_bfs: phony || ../aw1106_peak_bfs/output/CMakeFiles/aw1106_peak_bfs.dir
+
+build ../aw1106_peak_bfs/output/CMakeFiles/aw1106_peak_bfs.dir/PeakValley.cpp.o: CXX_COMPILER__aw1106_peak_bfs_Debug /Users/matthew/Dev/Algorithms-ACWing/aw1106_peak_bfs/PeakValley.cpp || cmake_object_order_depends_target_aw1106_peak_bfs
+  DEP_FILE = ../aw1106_peak_bfs/output/CMakeFiles/aw1106_peak_bfs.dir/PeakValley.cpp.o.d
+  FLAGS = -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++14
+  OBJECT_DIR = ../aw1106_peak_bfs/output/CMakeFiles/aw1106_peak_bfs.dir
+  OBJECT_FILE_DIR = ../aw1106_peak_bfs/output/CMakeFiles/aw1106_peak_bfs.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target aw1106_peak_bfs
+
+
+#############################################
+# Link the executable ../aw1106_peak_bfs/output/aw1106_peak_bfs
+
+build ../aw1106_peak_bfs/output/aw1106_peak_bfs: CXX_EXECUTABLE_LINKER__aw1106_peak_bfs_Debug ../aw1106_peak_bfs/output/CMakeFiles/aw1106_peak_bfs.dir/PeakValley.cpp.o
+  FLAGS = -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = ../aw1106_peak_bfs/output/CMakeFiles/aw1106_peak_bfs.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ../aw1106_peak_bfs/output/aw1106_peak_bfs
+  TARGET_PDB = aw1106_peak_bfs.dbg
+
+# =============================================================================
 # Target aliases.
+
+build aw1097_flood_fill_lakes: phony ../aw1097_flood_fill_lakes/output/aw1097_flood_fill_lakes
+
+build aw1098_castle_rooms: phony ../aw1098_castle_rooms/output/aw1098_castle_rooms
+
+build aw1106_peak_bfs: phony ../aw1106_peak_bfs/output/aw1106_peak_bfs
 
 build aw785_quicksort: phony ../aw785_quicksort/output/aw785_quicksort
 
@@ -310,8 +611,33 @@ build aw787_quicksort: phony ../aw787_mergesort/output/aw787_quicksort
 
 build aw788_inversepair: phony ../aw788_inversepair/output/aw788_inversepair
 
+build aw789_bs_range: phony ../aw789_bs_range/output/aw789_bs_range
+
+build aw790_bs_root_cubed: phony ../aw790_bs_root_cubed/output/aw790_bs_root_cubed
+
 # =============================================================================
 # Folder targets.
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/matthew/Dev/Algorithms-ACWing/aw1097_flood_fill_lakes/output
+
+build ../aw1097_flood_fill_lakes/output/all: phony ../aw1097_flood_fill_lakes/output/aw1097_flood_fill_lakes
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/matthew/Dev/Algorithms-ACWing/aw1098_castle_rooms/output
+
+build ../aw1098_castle_rooms/output/all: phony ../aw1098_castle_rooms/output/aw1098_castle_rooms
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/matthew/Dev/Algorithms-ACWing/aw1106_peak_bfs/output
+
+build ../aw1106_peak_bfs/output/all: phony ../aw1106_peak_bfs/output/aw1106_peak_bfs
 
 # =============================================================================
 
@@ -344,9 +670,23 @@ build ../aw788_inversepair/output/all: phony ../aw788_inversepair/output/aw788_i
 # =============================================================================
 
 #############################################
+# Folder: /Users/matthew/Dev/Algorithms-ACWing/aw789_bs_range/output
+
+build ../aw789_bs_range/output/all: phony ../aw789_bs_range/output/aw789_bs_range
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/matthew/Dev/Algorithms-ACWing/aw790_bs_root_cubed/output
+
+build ../aw790_bs_root_cubed/output/all: phony ../aw790_bs_root_cubed/output/aw790_bs_root_cubed
+
+# =============================================================================
+
+#############################################
 # Folder: /Users/matthew/Dev/Algorithms-ACWing/cmake-build-debug
 
-build all: phony ../aw785_quicksort/output/all ../aw786_quicksortfindk/output/all ../aw787_mergesort/output/all ../aw788_inversepair/output/all
+build all: phony ../aw785_quicksort/output/all ../aw786_quicksortfindk/output/all ../aw787_mergesort/output/all ../aw788_inversepair/output/all ../aw789_bs_range/output/all ../aw790_bs_root_cubed/output/all ../aw1097_flood_fill_lakes/output/all ../aw1098_castle_rooms/output/all ../aw1106_peak_bfs/output/all
 
 # =============================================================================
 # Built-in targets
@@ -355,14 +695,14 @@ build all: phony ../aw785_quicksort/output/all ../aw786_quicksortfindk/output/al
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | ../CMakeLists.txt ../aw785_quicksort/CMakeLists.txt ../aw786_quicksortfindk/CMakeLists.txt ../aw787_mergesort/CMakeLists.txt ../aw788_inversepair/CMakeLists.txt /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/GNU-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Apple-GNU-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Apple-GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.21.1/CMakeCCompiler.cmake CMakeFiles/3.21.1/CMakeCXXCompiler.cmake CMakeFiles/3.21.1/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | ../CMakeLists.txt ../aw1097_flood_fill_lakes/CMakeLists.txt ../aw1098_castle_rooms/CMakeLists.txt ../aw1106_peak_bfs/CMakeLists.txt ../aw785_quicksort/CMakeLists.txt ../aw786_quicksortfindk/CMakeLists.txt ../aw787_mergesort/CMakeLists.txt ../aw788_inversepair/CMakeLists.txt ../aw789_bs_range/CMakeLists.txt ../aw790_bs_root_cubed/CMakeLists.txt /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/GNU-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Apple-GNU-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Apple-GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.21.1/CMakeCCompiler.cmake CMakeFiles/3.21.1/CMakeCXXCompiler.cmake CMakeFiles/3.21.1/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build ../CMakeLists.txt ../aw785_quicksort/CMakeLists.txt ../aw786_quicksortfindk/CMakeLists.txt ../aw787_mergesort/CMakeLists.txt ../aw788_inversepair/CMakeLists.txt /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/GNU-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Apple-GNU-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Apple-GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.21.1/CMakeCCompiler.cmake CMakeFiles/3.21.1/CMakeCXXCompiler.cmake CMakeFiles/3.21.1/CMakeSystem.cmake: phony
+build ../CMakeLists.txt ../aw1097_flood_fill_lakes/CMakeLists.txt ../aw1098_castle_rooms/CMakeLists.txt ../aw1106_peak_bfs/CMakeLists.txt ../aw785_quicksort/CMakeLists.txt ../aw786_quicksortfindk/CMakeLists.txt ../aw787_mergesort/CMakeLists.txt ../aw788_inversepair/CMakeLists.txt ../aw789_bs_range/CMakeLists.txt ../aw790_bs_root_cubed/CMakeLists.txt /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/GNU-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Apple-GNU-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Apple-GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.21.1/CMakeCCompiler.cmake CMakeFiles/3.21.1/CMakeCXXCompiler.cmake CMakeFiles/3.21.1/CMakeSystem.cmake: phony
 
 
 #############################################

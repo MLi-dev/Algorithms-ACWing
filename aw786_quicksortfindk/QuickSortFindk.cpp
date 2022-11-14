@@ -16,17 +16,15 @@ void quickSort(int q[], int l, int r) {
     }
     quickSort(q, l, j);
     quickSort(q, j+1, r);
-
 }
 
 int main() {
     int n, k;
     scanf("%d", &n);
     scanf("%d", &k);
-    for(int i = 1; i<= n; i++) {
+    for(int i = 1; i<=n; i++) {
         scanf("%d", &q[i]);
     }
     quickSort(q, 1, n);
     printf("%d ", q[k]);
-    return 0;
 }

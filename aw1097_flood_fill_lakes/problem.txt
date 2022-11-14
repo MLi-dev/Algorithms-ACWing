@@ -1,0 +1,51 @@
+A N*M grid
+
+"W" means water，"." means land
+
+Find out how many lakes are there
+
+if W connect with up, down, left right, right up, left down, left up, right down then it consider as part of the same lake
+
+Find out how many lakes are there in the grid
+
+Things to remember:
+1. typedef pair<int, int> PII and #define x first, y second.
+2. Use a queue q, takes in pairs.q[M]. Such M = N*N;
+3. Need head, tail, hh tt = 0 for queue.
+- while (hh<=tt)
+4. To input a string, do scanf("%s", )
+5. auto t = q[hh++] <- How to pop out of queue q.
+6. Find 8-connection with double for loop (int i = t.x-1; i<=t.x+1; i++), for(int j = t.y-1; j<=t.y+1; j++)
+7. Four conditions that if met, continue:
+-  if(i< 0 || i>=n || j<0 || j>=m) (Means it is in corner, cannot compare to any other lake connected)
+-  if(st[i][j]) (Has already been checked)
+-  if(t.x == i && t.y == j) (Itself)
+-  if(g[i][j] == '.') (Isn't a lake W)
+
+
+
+Input format
+n, m
+n*m grid with either "W" or "."
+
+Output:
+number of lakes
+
+Constraints:
+1≤N,M≤1000
+
+Sample input
+10 12
+W........WW.
+.WWW.....WWW
+....WW...WW.
+.........WW.
+.........W..
+..W......W..
+.W.W.....WW.
+W.W.W.....W.
+.W.W......W.
+..W.......W.
+
+Sample output：
+3

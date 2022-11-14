@@ -4,6 +4,7 @@ Please use quick sort to sort in Ascending order the print in order
 Keywords: Recursion, pivot, l r pointers, i = l-1, j= r+1, do-while.
 Things to remember:
 1. Recursion, one from left to middle, one for middle+1 to right side.
+2. Don't do while(i<=j), dead loop.
 
 Input
 line 1: number
