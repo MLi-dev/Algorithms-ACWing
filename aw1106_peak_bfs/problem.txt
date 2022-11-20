@@ -11,7 +11,7 @@ if ws>ws′（peak），or ws<ws′（valley).
 a set can be both peak or valley, it can also be neither peak nor valley
 
 Things to remember:
-1. Define bool has_lower and has_higher in double loop before calling bfs.
+1. Define bool has_lower and has_higher in double loop before calling bfs. (Must reset back to false)
 2. Pass in &has_lower, &has_higher as reference in bfs.
 3. if !has_higher, peaks++, !has_lower, valleys++;
 Make sure two conditions: if(has_lower) and if(has_higher), because it's possible to be in between lowest, highest. Neither peak nor valley.

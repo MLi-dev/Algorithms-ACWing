@@ -21,10 +21,10 @@ Clues to Remember:
                         int dy[4] = {-1, 0, 1, 0};
 2. For 4-connection loop, do for(int i = 0; i<4; i++);
 3. Find neighbor x y positions. int nx = t.x+dx[i] and int ny = t.y+dy[i];
-4. Binary operation, check which digit is 1. Do if(g[t.x][t.y] >> i&1)
-5. Also need to return area. Every time pop out element of q, do area++;
+4. Three conditions if(st[nx][ny), Binary operation, check which digit is 1. Do if(g[t.x][t.y] >> i&1) and check wall.
+5. Do area++ by default in bfs while(hh<=tt). B/C picking element out of queue, confirming is part of room.
 -Inside main, do area = max(area, bfs(i, j));
-6. Do area++ by default in bfs while(hh<=tt).
+6.
 
 Input
 m, n

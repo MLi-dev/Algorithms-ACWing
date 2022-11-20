@@ -1,0 +1,29 @@
+Farmer knows the cows position and wants to catch it
+
+They are on a x-axis, farmer is at N and cow is at K
+
+Farmer can move to x-1 or x+1 or 2x, all cost him 1 minute
+
+cow is not moving
+
+How long it will take farmer to catch the cow?
+
+Things to Remember:
+1. If farmer at cow position, return current distance.
+2. Initialize all position -1. Set dist[farmer's position] = 0.
+3. t+1, 2*t check <N, t-1>=0, dist[element] == -1 (not visited). Then put in queue, inc distance.
+
+
+Input:
+N K
+
+Output:
+time
+
+Constraints:
+0≤N,K≤10e5
+
+Sample input:
+5 17
+Sample output:
+4

@@ -1,0 +1,60 @@
+The knight "K" is acting like the knight in the chess. It can jump over anything but can't land on *
+The knight is trying to reach his horse "H", please find out the shortest steps
+
+             11 | . . . . . . . . . .
+             10 | . . . . * . . . . . 
+              9 | . . . . . . . . . . 
+              8 | . . . * . * . . . . 
+              7 | . . . . . . . * . . 
+              6 | . . * . . * . . . H 
+              5 | * . . . . . . . . . 
+              4 | . . . * . . . * . . 
+              3 | . K . . . . . . . .
+              2 | . . . * . . . . . * 
+              1 | . . * . . . . * . . 
+              0 ----------------------
+                                    1 
+                0 1 2 3 4 5 6 7 8 9 0 
+The Knight can follow A,B,C,D… and the steps are 5（There are other possible path）：
+
+             11 | . . . . . . . . . .
+             10 | . . . . * . . . . .
+              9 | . . . . . . . . . .
+              8 | . . . * . * . . . .
+              7 | . . . . . . . * . .
+              6 | . . * . . * . . . F<
+              5 | * . B . . . . . . .
+              4 | . . . * C . . * E .
+              3 | .>A . . . . D . . .
+              2 | . . . * . . . . . *
+              1 | . . * . . . . * . .
+              0 ----------------------
+                                    1
+                0 1 2 3 4 5 6 7 8 9 0
+
+Things to Remember:
+1. 8-connection but imagine 5x5 grid.
+2. int dist[N][N], is distance, Incremented by BFS.
+In main, find where is 'K', start = {i, j}, i and j being position of K.
+3. Four "continue" conditions: Edge of grid, g[nx][ny] == '*', dist[nx][ny] != -1 (Not checked), g[nx][ny] == 'H' (Break, return dist).
+4. Else, next element in queue, update dist[nx][ny] = dist[t.x][t.y]+1 <-- Current element's distance
+
+Constraints
+1≤R,C≤150
+
+Sample input:
+10 11
+..........
+....*.....
+..........
+...*.*....
+.......*..
+..*..*...H
+*.........
+...*...*..
+.K........
+...*.....*
+..*....*..
+
+Sample output:
+5

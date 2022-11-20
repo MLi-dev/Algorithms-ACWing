@@ -12,3 +12,7 @@ add_subdirectory("${PROJECT_SOURCE_DIR}/aw790_bs_root_cubed" "${PROJECT_SOURCE_D
 add_subdirectory("${PROJECT_SOURCE_DIR}/aw1097_flood_fill_lakes" "${PROJECT_SOURCE_DIR}/aw1097_flood_fill_lakes/output" )
 add_subdirectory("${PROJECT_SOURCE_DIR}/aw1098_castle_rooms" "${PROJECT_SOURCE_DIR}/aw1098_castle_rooms/output" )
 add_subdirectory("${PROJECT_SOURCE_DIR}/aw1106_peak_bfs" "${PROJECT_SOURCE_DIR}/aw1106_peak_bfs/output" )
+add_subdirectory("${PROJECT_SOURCE_DIR}/aw1076_bfs_maze" "${PROJECT_SOURCE_DIR}/aw1076_bfs_maze/output" )
+add_subdirectory("${PROJECT_SOURCE_DIR}/aw188_bfs_knight" "${PROJECT_SOURCE_DIR}/aw188_bfs_knight/output" )
+add_subdirectory("${PROJECT_SOURCE_DIR}/aw1100_bfs_cow" "${PROJECT_SOURCE_DIR}/aw1100_bfs_cow/output" )
+add_subdirectory("${PROJECT_SOURCE_DIR}/aw173_grid_dist" "${PROJECT_SOURCE_DIR}/aw173_grid_dist/output" )

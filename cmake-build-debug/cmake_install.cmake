@@ -82,6 +82,26 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/Users/matthew/Dev/Algorithms-ACWing/aw1106_peak_bfs/output/cmake_install.cmake")
 endif()
 
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/Users/matthew/Dev/Algorithms-ACWing/aw1076_bfs_maze/output/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/Users/matthew/Dev/Algorithms-ACWing/aw188_bfs_knight/output/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/Users/matthew/Dev/Algorithms-ACWing/aw1100_bfs_cow/output/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/Users/matthew/Dev/Algorithms-ACWing/aw173_grid_dist/output/cmake_install.cmake")
+endif()
+
 if(CMAKE_INSTALL_COMPONENT)
   set(CMAKE_INSTALL_MANIFEST "install_manifest_${CMAKE_INSTALL_COMPONENT}.txt")
 else()
