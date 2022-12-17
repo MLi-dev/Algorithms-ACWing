@@ -1,0 +1,60 @@
+Implement a double linkedlist. It supports 5 operations:
+1. Insert a number at the far left node;
+2. Insert a number at the far right node;
+3. delete the number after k-1th.
+4. Insert the number left of k-1th number.
+5. Insert the number right of k-1th number.
+
+Things to remember: Has idx, l[N], r[N], e[N] <-- Unlike single linked list, must consider left and right.
+1. Do init() before loop in main.
+    void init() {
+    r[0] = 1;
+    l[1] = 0;
+    idx = 2;
+    }
+2. No need for head.
+    void add(int k, int b) {
+        e[idx] = b;
+        //Must reconnect k and r[k] to idx. Configure left and right.
+        idx++;
+    }
+3. Remove
+    void remove(int k) {
+        l[r[k]] = l[k]
+        r[l[k]] = r[k]
+    }
+4. 5 Possible strings: L, R, D, IR, IL
+    L = far left, insert at index 0.
+    R = far right, insert at index left of 1, l[1].
+    D = delete.
+    IR = Insert at index k+1
+    IL = Insert at left side of index k+1
+5. Printing out start at r[0], end at i = 1 (i!=1)
+
+Input
+L x，Insert a number x at the far left node.
+R x，Insert a number x at the far right node.
+D k，delete the number after k-1th.
+IL k x，Insert the number left of kth number.
+IR k x，Insert the number right of kth number.
+
+output
+the numbers of the list
+
+1<=M<=100000
+
+Sample input:
+10
+R 7
+D 1
+L 3
+IL 2 10
+D 3
+IL 2 7
+L 8
+R 9
+IL 4 7
+IR 2 2
+
+Sample output:
+8 7 7 3 2 9

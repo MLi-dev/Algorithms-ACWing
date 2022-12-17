@@ -1,0 +1,44 @@
+Given an 2D grid n x m
+with q operations, each operation contains x1, y1, x2, y2, c,
+(x1, y1) and (x2, y2) means the upper left corner and bottom right corner.
+each operation will add c to the element
+print out the new grid
+
+Things to Remember:
+1. Needs insert() function, insert(x1, y1, x2, y2, c);
+    b[x1][y1] += c;
+    b[x2+1][y1]-=c;
+    b[x1][y2+1]-=c;
+    b[x2+1][y2+1]+=c;
+2. Fill in grid b, do double for loop, insert(i, j, i, j, a[i][j])
+3. Sum formula for b grid =  b[i][j] += b[i-1][j] + b[i][j-1] - b[i-1][j-1];
+
+Input
+n, m, q
+grid
+x1, y1, x2, y2, c
+
+output
+final grid
+
+Range
+1<=n, m <=1000,
+1<=q<=100000,
+1<=x1<=x2<=n
+1<=y1<=y2<=m
+-1000 <=c <=1000
+-1000 <= element <=1000
+
+Input
+3 4 3
+1 2 2 1
+3 2 2 1
+1 1 1 1
+1 1 2 2 1
+1 3 2 3 2
+3 1 3 4 1
+
+Output
+2 3 4 1
+4 3 4 1
+2 2 2 2

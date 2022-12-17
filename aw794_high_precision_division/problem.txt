@@ -1,0 +1,38 @@
+Given two positive Integer, calculate the division and remainer
+
+Things to Remember:
+1. For division function, extra remainder value r passed in as 0.
+2. NO T!
+3. In division function, loop through vector A descending order (for(int i = A.size()-1; i>=0; i--))
+4. After loop, reverse result vector C (reverse(C.begin(), c.end())
+5. Remove trailing zeroes.
+6. r = r*10+A[i];
+   C.push_back(r/b)
+   r = r%b;
+   Ex: Find 876 divide by 8. r initialized = 0.
+   1. r = (0)*10+6 = 6. Push in r/b C.push_back(6/8) = C.push_back(0).
+   2. r%b = 6%8 = 6.
+   3. r = (6)*10+7 = 67. Push in r/b C.push_back(67/8) = C.push_back(8).
+   4. r%b = 67%8 = 3.
+   5. r = 3*10 + 8 = 38. Push in r/b C.push_back(38/8) = C.push_back(4).
+   6. r = 38%8 = 6. Remainder.
+
+Input:
+integer A
+integer B
+
+output
+division result
+remainder
+
+Range:
+1<= len of A<=10^6
+0<=B<=10000
+
+Input Sample
+7
+2
+
+Output
+3
+1

@@ -1,0 +1,30 @@
+Given two positive Integer, calculate the multiplication
+
+Things to remember:
+1. mult() function takes in a vector of ints and an int.
+    Convert string to a  vector<int> (in reverse) before passing in vector into mult.
+2. int t += A[i]*b
+   push t%10 into returning vector.
+   t/=10;
+3. if(t) C.push_back(t) <--Check for any digits remaining.
+4.   while(C.size() > 1 && C.back() == 0) {
+           C.pop_back();
+       } <--Checks for any leading 0's
+
+Input:
+integer A
+integer B
+
+output
+product
+
+Range:
+1<= len of A<=10^6
+0<=B<=10000
+
+Input Sample
+2
+3
+
+Output
+6

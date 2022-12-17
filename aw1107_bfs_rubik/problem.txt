@@ -1,0 +1,58 @@
+Rubik new version
+
+1 2 3 4
+8 7 6 5
+
+
+We show that in format of (1,2,3,4,5,6,7,8)
+
+
+Put in the queue, as long as queue isn't empty, take out from queue, find neighbor elements based on queue, any that qualify push into queue. Update distance or st or pre based on different use case.
+
+Things to Remember: Queue. Need an element to first push into and will start comparing, initialize dist to 0. To find neighboring element to use for comparison, this case needs string m[3], m[0] = move0(t), m[1] = move1(t), m[2] = move2(t).
+1. Skeleton: setToGrid(), getFromGrid(), move0, move1, move2, bfs, main.
+2. setToGrid(): String -> Grid, getFromGrid(): Grid->String
+3. unordered_map(string, PII) pre; (PII is pair<char, string>). Map key is m[i], next element. PII.x is operation like A, B,C, PII.y is current element like t.
+4. dist.count(m[i]) == 0, means have not been checked.
+5. unordered_map(string, int) dist: How many steps taken. Key m[i] is next element. dist[m[i]] = dist[t]+1
+6. Convert to character do [int here] +'0'
+7. A + 'i' will become A, B, C depending on i (is 0, 1, 2).
+8. dist.count(m[i]) checks if next element has been visited or not, only if NOT visited push into queue.
+9. string t = queue.front() to get head, then do queue.pop().
+10. pre[m[i]] = {'A'+i, t}
+
+
+
+We can do three operations
+
+A：exchange the lines
+B：move the 4th column to 1st；
+C：Make the middle e numbers rotate in clockwise
+
+For example
+
+For ref, original grid is
+1 2 3 4
+8 7 6 5
+
+A：
+
+8 7 6 5
+1 2 3 4
+
+B：
+
+4 1 2 3
+5 8 7 6
+C：
+
+1 7 2 4
+8 6 3 5
+
+
+
+Sample input
+2 6 8 4 5 7 3 1
+Sample output
+7
+BCABCCB

@@ -1,0 +1,38 @@
+Given two positive Integer, calculate the difference
+
+Things to remember:
+1. Needs EXTRA bool comp() function, compare values of vectors A and B.
+    Two conditions: First compare sizes of A and B(Return A.size()>B.size()). If same size, compare values (A[i]>B[i]).
+    Returns true otherwise.
+2. For sub() function, need int t.
+    initially t = 0;
+    for(int i = 0; i<A.size(); i++) {
+        t = A[i] - t;
+        if(i<B.size()) {
+            t = t-B[i];
+        }
+        C.push_back((t+10)%10);
+    }
+3. Check t, if t <0, set t = 1. Otherwise t = 0; <-Is to check if you needed to borrow from neighboring digit.
+4.    while(C.size()>1 && C.back() == 0) {
+          C.pop_back();
+      }
+      If there are any trailing zeros, pop out of vector.
+  5.
+
+Input:
+integer 1
+integer 2
+
+output
+difference
+
+Range:
+1<= len <=10^5
+
+Input Sample
+32
+11
+
+Output
+21

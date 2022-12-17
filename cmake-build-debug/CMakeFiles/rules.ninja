@@ -267,6 +267,443 @@ rule CXX_EXECUTABLE_LINKER__aw173_grid_dist_Debug
 
 
 #############################################
+# Rule for compiling CXX files.
+
+rule CXX_COMPILER__aw1107_bfs_rubik_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = /usr/local/Cellar/gcc/11.3.0_1/bin/c++-11 $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX executable.
+
+rule CXX_EXECUTABLE_LINKER__aw1107_bfs_rubik_Debug
+  command = $PRE_LINK && /usr/local/Cellar/gcc/11.3.0_1/bin/c++-11 $FLAGS -Wl,-search_paths_first -Wl,-headerpad_max_install_names $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
+  description = Linking CXX executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling CXX files.
+
+rule CXX_COMPILER__aw791_high_precision_addition_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = /usr/local/Cellar/gcc/11.3.0_1/bin/c++-11 $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX executable.
+
+rule CXX_EXECUTABLE_LINKER__aw791_high_precision_addition_Debug
+  command = $PRE_LINK && /usr/local/Cellar/gcc/11.3.0_1/bin/c++-11 $FLAGS -Wl,-search_paths_first -Wl,-headerpad_max_install_names $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
+  description = Linking CXX executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling CXX files.
+
+rule CXX_COMPILER__aw792_high_precision_subtraction_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = /usr/local/Cellar/gcc/11.3.0_1/bin/c++-11 $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX executable.
+
+rule CXX_EXECUTABLE_LINKER__aw792_high_precision_subtraction_Debug
+  command = $PRE_LINK && /usr/local/Cellar/gcc/11.3.0_1/bin/c++-11 $FLAGS -Wl,-search_paths_first -Wl,-headerpad_max_install_names $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
+  description = Linking CXX executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling CXX files.
+
+rule CXX_COMPILER__aw793_high_precision_multiplication_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = /usr/local/Cellar/gcc/11.3.0_1/bin/c++-11 $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX executable.
+
+rule CXX_EXECUTABLE_LINKER__aw793_high_precision_multiplication_Debug
+  command = $PRE_LINK && /usr/local/Cellar/gcc/11.3.0_1/bin/c++-11 $FLAGS -Wl,-search_paths_first -Wl,-headerpad_max_install_names $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
+  description = Linking CXX executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling CXX files.
+
+rule CXX_COMPILER__aw794_high_precision_division_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = /usr/local/Cellar/gcc/11.3.0_1/bin/c++-11 $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX executable.
+
+rule CXX_EXECUTABLE_LINKER__aw794_high_precision_division_Debug
+  command = $PRE_LINK && /usr/local/Cellar/gcc/11.3.0_1/bin/c++-11 $FLAGS -Wl,-search_paths_first -Wl,-headerpad_max_install_names $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
+  description = Linking CXX executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling CXX files.
+
+rule CXX_COMPILER__aw795_prefix_sum_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = /usr/local/Cellar/gcc/11.3.0_1/bin/c++-11 $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX executable.
+
+rule CXX_EXECUTABLE_LINKER__aw795_prefix_sum_Debug
+  command = $PRE_LINK && /usr/local/Cellar/gcc/11.3.0_1/bin/c++-11 $FLAGS -Wl,-search_paths_first -Wl,-headerpad_max_install_names $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
+  description = Linking CXX executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling CXX files.
+
+rule CXX_COMPILER__aw796_prefix_sum_grid_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = /usr/local/Cellar/gcc/11.3.0_1/bin/c++-11 $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX executable.
+
+rule CXX_EXECUTABLE_LINKER__aw796_prefix_sum_grid_Debug
+  command = $PRE_LINK && /usr/local/Cellar/gcc/11.3.0_1/bin/c++-11 $FLAGS -Wl,-search_paths_first -Wl,-headerpad_max_install_names $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
+  description = Linking CXX executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling CXX files.
+
+rule CXX_COMPILER__aw797_difference_array_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = /usr/local/Cellar/gcc/11.3.0_1/bin/c++-11 $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX executable.
+
+rule CXX_EXECUTABLE_LINKER__aw797_difference_array_Debug
+  command = $PRE_LINK && /usr/local/Cellar/gcc/11.3.0_1/bin/c++-11 $FLAGS -Wl,-search_paths_first -Wl,-headerpad_max_install_names $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
+  description = Linking CXX executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling CXX files.
+
+rule CXX_COMPILER__aw798_difference_grid_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = /usr/local/Cellar/gcc/11.3.0_1/bin/c++-11 $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX executable.
+
+rule CXX_EXECUTABLE_LINKER__aw798_difference_grid_Debug
+  command = $PRE_LINK && /usr/local/Cellar/gcc/11.3.0_1/bin/c++-11 $FLAGS -Wl,-search_paths_first -Wl,-headerpad_max_install_names $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
+  description = Linking CXX executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling CXX files.
+
+rule CXX_COMPILER__aw799_non_repeat_array_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = /usr/local/Cellar/gcc/11.3.0_1/bin/c++-11 $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX executable.
+
+rule CXX_EXECUTABLE_LINKER__aw799_non_repeat_array_Debug
+  command = $PRE_LINK && /usr/local/Cellar/gcc/11.3.0_1/bin/c++-11 $FLAGS -Wl,-search_paths_first -Wl,-headerpad_max_install_names $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
+  description = Linking CXX executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling CXX files.
+
+rule CXX_COMPILER__aw800_array_target_sum_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = /usr/local/Cellar/gcc/11.3.0_1/bin/c++-11 $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX executable.
+
+rule CXX_EXECUTABLE_LINKER__aw800_array_target_sum_Debug
+  command = $PRE_LINK && /usr/local/Cellar/gcc/11.3.0_1/bin/c++-11 $FLAGS -Wl,-search_paths_first -Wl,-headerpad_max_install_names $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
+  description = Linking CXX executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling CXX files.
+
+rule CXX_COMPILER__aw2818_subarray_two_pointers_sum_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = /usr/local/Cellar/gcc/11.3.0_1/bin/c++-11 $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX executable.
+
+rule CXX_EXECUTABLE_LINKER__aw2818_subarray_two_pointers_sum_Debug
+  command = $PRE_LINK && /usr/local/Cellar/gcc/11.3.0_1/bin/c++-11 $FLAGS -Wl,-search_paths_first -Wl,-headerpad_max_install_names $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
+  description = Linking CXX executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling CXX files.
+
+rule CXX_COMPILER__aw801_Binary_find_ones_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = /usr/local/Cellar/gcc/11.3.0_1/bin/c++-11 $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX executable.
+
+rule CXX_EXECUTABLE_LINKER__aw801_Binary_find_ones_Debug
+  command = $PRE_LINK && /usr/local/Cellar/gcc/11.3.0_1/bin/c++-11 $FLAGS -Wl,-search_paths_first -Wl,-headerpad_max_install_names $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
+  description = Linking CXX executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling CXX files.
+
+rule CXX_COMPILER__aw801_Binary_find_ones_brute_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = /usr/local/Cellar/gcc/11.3.0_1/bin/c++-11 $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX executable.
+
+rule CXX_EXECUTABLE_LINKER__aw801_Binary_find_ones_brute_Debug
+  command = $PRE_LINK && /usr/local/Cellar/gcc/11.3.0_1/bin/c++-11 $FLAGS -Wl,-search_paths_first -Wl,-headerpad_max_install_names $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
+  description = Linking CXX executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling CXX files.
+
+rule CXX_COMPILER__aw802_Decrete_sum_range_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = /usr/local/Cellar/gcc/11.3.0_1/bin/c++-11 $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX executable.
+
+rule CXX_EXECUTABLE_LINKER__aw802_Decrete_sum_range_Debug
+  command = $PRE_LINK && /usr/local/Cellar/gcc/11.3.0_1/bin/c++-11 $FLAGS -Wl,-search_paths_first -Wl,-headerpad_max_install_names $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
+  description = Linking CXX executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling CXX files.
+
+rule CXX_COMPILER__aw803_Merge_Intervals_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = /usr/local/Cellar/gcc/11.3.0_1/bin/c++-11 $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX executable.
+
+rule CXX_EXECUTABLE_LINKER__aw803_Merge_Intervals_Debug
+  command = $PRE_LINK && /usr/local/Cellar/gcc/11.3.0_1/bin/c++-11 $FLAGS -Wl,-search_paths_first -Wl,-headerpad_max_install_names $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
+  description = Linking CXX executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling CXX files.
+
+rule CXX_COMPILER__aw826_Single_Linked_List_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = /usr/local/Cellar/gcc/11.3.0_1/bin/c++-11 $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX executable.
+
+rule CXX_EXECUTABLE_LINKER__aw826_Single_Linked_List_Debug
+  command = $PRE_LINK && /usr/local/Cellar/gcc/11.3.0_1/bin/c++-11 $FLAGS -Wl,-search_paths_first -Wl,-headerpad_max_install_names $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
+  description = Linking CXX executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling CXX files.
+
+rule CXX_COMPILER__aw827_Doubly_Linked_List_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = /usr/local/Cellar/gcc/11.3.0_1/bin/c++-11 $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX executable.
+
+rule CXX_EXECUTABLE_LINKER__aw827_Doubly_Linked_List_Debug
+  command = $PRE_LINK && /usr/local/Cellar/gcc/11.3.0_1/bin/c++-11 $FLAGS -Wl,-search_paths_first -Wl,-headerpad_max_install_names $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
+  description = Linking CXX executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling CXX files.
+
+rule CXX_COMPILER__aw828_Stack_With_Array_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = /usr/local/Cellar/gcc/11.3.0_1/bin/c++-11 $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX executable.
+
+rule CXX_EXECUTABLE_LINKER__aw828_Stack_With_Array_Debug
+  command = $PRE_LINK && /usr/local/Cellar/gcc/11.3.0_1/bin/c++-11 $FLAGS -Wl,-search_paths_first -Wl,-headerpad_max_install_names $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
+  description = Linking CXX executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling CXX files.
+
+rule CXX_COMPILER__aw3302_Expression_order_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = /usr/local/Cellar/gcc/11.3.0_1/bin/c++-11 $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX executable.
+
+rule CXX_EXECUTABLE_LINKER__aw3302_Expression_order_Debug
+  command = $PRE_LINK && /usr/local/Cellar/gcc/11.3.0_1/bin/c++-11 $FLAGS -Wl,-search_paths_first -Wl,-headerpad_max_install_names $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
+  description = Linking CXX executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling CXX files.
+
+rule CXX_COMPILER__aw829_Queue_With_Array_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = /usr/local/Cellar/gcc/11.3.0_1/bin/c++-11 $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX executable.
+
+rule CXX_EXECUTABLE_LINKER__aw829_Queue_With_Array_Debug
+  command = $PRE_LINK && /usr/local/Cellar/gcc/11.3.0_1/bin/c++-11 $FLAGS -Wl,-search_paths_first -Wl,-headerpad_max_install_names $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
+  description = Linking CXX executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling CXX files.
+
+rule CXX_COMPILER__aw830_Ascending_Stack_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = /usr/local/Cellar/gcc/11.3.0_1/bin/c++-11 $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX executable.
+
+rule CXX_EXECUTABLE_LINKER__aw830_Ascending_Stack_Debug
+  command = $PRE_LINK && /usr/local/Cellar/gcc/11.3.0_1/bin/c++-11 $FLAGS -Wl,-search_paths_first -Wl,-headerpad_max_install_names $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
+  description = Linking CXX executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling CXX files.
+
+rule CXX_COMPILER__lc51_backtrack_queens_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = /usr/local/Cellar/gcc/11.3.0_1/bin/c++-11 $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX executable.
+
+rule CXX_EXECUTABLE_LINKER__lc51_backtrack_queens_Debug
+  command = $PRE_LINK && /usr/local/Cellar/gcc/11.3.0_1/bin/c++-11 $FLAGS -Wl,-search_paths_first -Wl,-headerpad_max_install_names $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
+  description = Linking CXX executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE

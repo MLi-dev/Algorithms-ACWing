@@ -831,6 +831,1363 @@ build ../aw173_grid_dist/output/aw173_grid_dist: CXX_EXECUTABLE_LINKER__aw173_gr
   TARGET_PDB = aw173_grid_dist.dbg
 
 # =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/matthew/Dev/Algorithms-ACWing/CMakeLists.txt
+# =============================================================================
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build ../aw1107_bfs_rubik/output/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/matthew/Dev/Algorithms-ACWing/aw1107_bfs_rubik/output && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/matthew/Dev/Algorithms-ACWing -B/Users/matthew/Dev/Algorithms-ACWing/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build ../aw1107_bfs_rubik/output/rebuild_cache: phony ../aw1107_bfs_rubik/output/CMakeFiles/rebuild_cache.util
+
+
+#############################################
+# Utility command for edit_cache
+
+build ../aw1107_bfs_rubik/output/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/matthew/Dev/Algorithms-ACWing/aw1107_bfs_rubik/output && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build ../aw1107_bfs_rubik/output/edit_cache: phony ../aw1107_bfs_rubik/output/CMakeFiles/edit_cache.util
+
+# =============================================================================
+# Object build statements for EXECUTABLE target aw1107_bfs_rubik
+
+
+#############################################
+# Order-only phony target for aw1107_bfs_rubik
+
+build cmake_object_order_depends_target_aw1107_bfs_rubik: phony || ../aw1107_bfs_rubik/output/CMakeFiles/aw1107_bfs_rubik.dir
+
+build ../aw1107_bfs_rubik/output/CMakeFiles/aw1107_bfs_rubik.dir/BFSRubiks.cpp.o: CXX_COMPILER__aw1107_bfs_rubik_Debug /Users/matthew/Dev/Algorithms-ACWing/aw1107_bfs_rubik/BFSRubiks.cpp || cmake_object_order_depends_target_aw1107_bfs_rubik
+  DEP_FILE = ../aw1107_bfs_rubik/output/CMakeFiles/aw1107_bfs_rubik.dir/BFSRubiks.cpp.o.d
+  FLAGS = -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++14
+  OBJECT_DIR = ../aw1107_bfs_rubik/output/CMakeFiles/aw1107_bfs_rubik.dir
+  OBJECT_FILE_DIR = ../aw1107_bfs_rubik/output/CMakeFiles/aw1107_bfs_rubik.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target aw1107_bfs_rubik
+
+
+#############################################
+# Link the executable ../aw1107_bfs_rubik/output/aw1107_bfs_rubik
+
+build ../aw1107_bfs_rubik/output/aw1107_bfs_rubik: CXX_EXECUTABLE_LINKER__aw1107_bfs_rubik_Debug ../aw1107_bfs_rubik/output/CMakeFiles/aw1107_bfs_rubik.dir/BFSRubiks.cpp.o
+  FLAGS = -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = ../aw1107_bfs_rubik/output/CMakeFiles/aw1107_bfs_rubik.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ../aw1107_bfs_rubik/output/aw1107_bfs_rubik
+  TARGET_PDB = aw1107_bfs_rubik.dbg
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/matthew/Dev/Algorithms-ACWing/CMakeLists.txt
+# =============================================================================
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build ../aw791_high_precision_addition/output/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/matthew/Dev/Algorithms-ACWing/aw791_high_precision_addition/output && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/matthew/Dev/Algorithms-ACWing -B/Users/matthew/Dev/Algorithms-ACWing/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build ../aw791_high_precision_addition/output/rebuild_cache: phony ../aw791_high_precision_addition/output/CMakeFiles/rebuild_cache.util
+
+
+#############################################
+# Utility command for edit_cache
+
+build ../aw791_high_precision_addition/output/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/matthew/Dev/Algorithms-ACWing/aw791_high_precision_addition/output && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build ../aw791_high_precision_addition/output/edit_cache: phony ../aw791_high_precision_addition/output/CMakeFiles/edit_cache.util
+
+# =============================================================================
+# Object build statements for EXECUTABLE target aw791_high_precision_addition
+
+
+#############################################
+# Order-only phony target for aw791_high_precision_addition
+
+build cmake_object_order_depends_target_aw791_high_precision_addition: phony || ../aw791_high_precision_addition/output/CMakeFiles/aw791_high_precision_addition.dir
+
+build ../aw791_high_precision_addition/output/CMakeFiles/aw791_high_precision_addition.dir/High_Precision_Addition.cpp.o: CXX_COMPILER__aw791_high_precision_addition_Debug /Users/matthew/Dev/Algorithms-ACWing/aw791_high_precision_addition/High_Precision_Addition.cpp || cmake_object_order_depends_target_aw791_high_precision_addition
+  DEP_FILE = ../aw791_high_precision_addition/output/CMakeFiles/aw791_high_precision_addition.dir/High_Precision_Addition.cpp.o.d
+  FLAGS = -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++14
+  OBJECT_DIR = ../aw791_high_precision_addition/output/CMakeFiles/aw791_high_precision_addition.dir
+  OBJECT_FILE_DIR = ../aw791_high_precision_addition/output/CMakeFiles/aw791_high_precision_addition.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target aw791_high_precision_addition
+
+
+#############################################
+# Link the executable ../aw791_high_precision_addition/output/aw791_high_precision_addition
+
+build ../aw791_high_precision_addition/output/aw791_high_precision_addition: CXX_EXECUTABLE_LINKER__aw791_high_precision_addition_Debug ../aw791_high_precision_addition/output/CMakeFiles/aw791_high_precision_addition.dir/High_Precision_Addition.cpp.o
+  FLAGS = -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = ../aw791_high_precision_addition/output/CMakeFiles/aw791_high_precision_addition.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ../aw791_high_precision_addition/output/aw791_high_precision_addition
+  TARGET_PDB = aw791_high_precision_addition.dbg
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/matthew/Dev/Algorithms-ACWing/CMakeLists.txt
+# =============================================================================
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build ../aw792_high_precision_subtraction/output/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/matthew/Dev/Algorithms-ACWing/aw792_high_precision_subtraction/output && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/matthew/Dev/Algorithms-ACWing -B/Users/matthew/Dev/Algorithms-ACWing/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build ../aw792_high_precision_subtraction/output/rebuild_cache: phony ../aw792_high_precision_subtraction/output/CMakeFiles/rebuild_cache.util
+
+
+#############################################
+# Utility command for edit_cache
+
+build ../aw792_high_precision_subtraction/output/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/matthew/Dev/Algorithms-ACWing/aw792_high_precision_subtraction/output && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build ../aw792_high_precision_subtraction/output/edit_cache: phony ../aw792_high_precision_subtraction/output/CMakeFiles/edit_cache.util
+
+# =============================================================================
+# Object build statements for EXECUTABLE target aw792_high_precision_subtraction
+
+
+#############################################
+# Order-only phony target for aw792_high_precision_subtraction
+
+build cmake_object_order_depends_target_aw792_high_precision_subtraction: phony || ../aw792_high_precision_subtraction/output/CMakeFiles/aw792_high_precision_subtraction.dir
+
+build ../aw792_high_precision_subtraction/output/CMakeFiles/aw792_high_precision_subtraction.dir/High_Precision_Subtraction.cpp.o: CXX_COMPILER__aw792_high_precision_subtraction_Debug /Users/matthew/Dev/Algorithms-ACWing/aw792_high_precision_subtraction/High_Precision_Subtraction.cpp || cmake_object_order_depends_target_aw792_high_precision_subtraction
+  DEP_FILE = ../aw792_high_precision_subtraction/output/CMakeFiles/aw792_high_precision_subtraction.dir/High_Precision_Subtraction.cpp.o.d
+  FLAGS = -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++14
+  OBJECT_DIR = ../aw792_high_precision_subtraction/output/CMakeFiles/aw792_high_precision_subtraction.dir
+  OBJECT_FILE_DIR = ../aw792_high_precision_subtraction/output/CMakeFiles/aw792_high_precision_subtraction.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target aw792_high_precision_subtraction
+
+
+#############################################
+# Link the executable ../aw792_high_precision_subtraction/output/aw792_high_precision_subtraction
+
+build ../aw792_high_precision_subtraction/output/aw792_high_precision_subtraction: CXX_EXECUTABLE_LINKER__aw792_high_precision_subtraction_Debug ../aw792_high_precision_subtraction/output/CMakeFiles/aw792_high_precision_subtraction.dir/High_Precision_Subtraction.cpp.o
+  FLAGS = -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = ../aw792_high_precision_subtraction/output/CMakeFiles/aw792_high_precision_subtraction.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ../aw792_high_precision_subtraction/output/aw792_high_precision_subtraction
+  TARGET_PDB = aw792_high_precision_subtraction.dbg
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/matthew/Dev/Algorithms-ACWing/CMakeLists.txt
+# =============================================================================
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build ../aw793_high_precision_multiplication/output/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/matthew/Dev/Algorithms-ACWing/aw793_high_precision_multiplication/output && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/matthew/Dev/Algorithms-ACWing -B/Users/matthew/Dev/Algorithms-ACWing/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build ../aw793_high_precision_multiplication/output/rebuild_cache: phony ../aw793_high_precision_multiplication/output/CMakeFiles/rebuild_cache.util
+
+
+#############################################
+# Utility command for edit_cache
+
+build ../aw793_high_precision_multiplication/output/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/matthew/Dev/Algorithms-ACWing/aw793_high_precision_multiplication/output && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build ../aw793_high_precision_multiplication/output/edit_cache: phony ../aw793_high_precision_multiplication/output/CMakeFiles/edit_cache.util
+
+# =============================================================================
+# Object build statements for EXECUTABLE target aw793_high_precision_multiplication
+
+
+#############################################
+# Order-only phony target for aw793_high_precision_multiplication
+
+build cmake_object_order_depends_target_aw793_high_precision_multiplication: phony || ../aw793_high_precision_multiplication/output/CMakeFiles/aw793_high_precision_multiplication.dir
+
+build ../aw793_high_precision_multiplication/output/CMakeFiles/aw793_high_precision_multiplication.dir/High_Precision_Multiplication.cpp.o: CXX_COMPILER__aw793_high_precision_multiplication_Debug /Users/matthew/Dev/Algorithms-ACWing/aw793_high_precision_multiplication/High_Precision_Multiplication.cpp || cmake_object_order_depends_target_aw793_high_precision_multiplication
+  DEP_FILE = ../aw793_high_precision_multiplication/output/CMakeFiles/aw793_high_precision_multiplication.dir/High_Precision_Multiplication.cpp.o.d
+  FLAGS = -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++14
+  OBJECT_DIR = ../aw793_high_precision_multiplication/output/CMakeFiles/aw793_high_precision_multiplication.dir
+  OBJECT_FILE_DIR = ../aw793_high_precision_multiplication/output/CMakeFiles/aw793_high_precision_multiplication.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target aw793_high_precision_multiplication
+
+
+#############################################
+# Link the executable ../aw793_high_precision_multiplication/output/aw793_high_precision_multiplication
+
+build ../aw793_high_precision_multiplication/output/aw793_high_precision_multiplication: CXX_EXECUTABLE_LINKER__aw793_high_precision_multiplication_Debug ../aw793_high_precision_multiplication/output/CMakeFiles/aw793_high_precision_multiplication.dir/High_Precision_Multiplication.cpp.o
+  FLAGS = -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = ../aw793_high_precision_multiplication/output/CMakeFiles/aw793_high_precision_multiplication.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ../aw793_high_precision_multiplication/output/aw793_high_precision_multiplication
+  TARGET_PDB = aw793_high_precision_multiplication.dbg
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/matthew/Dev/Algorithms-ACWing/CMakeLists.txt
+# =============================================================================
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build ../aw794_high_precision_division/output/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/matthew/Dev/Algorithms-ACWing/aw794_high_precision_division/output && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/matthew/Dev/Algorithms-ACWing -B/Users/matthew/Dev/Algorithms-ACWing/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build ../aw794_high_precision_division/output/rebuild_cache: phony ../aw794_high_precision_division/output/CMakeFiles/rebuild_cache.util
+
+
+#############################################
+# Utility command for edit_cache
+
+build ../aw794_high_precision_division/output/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/matthew/Dev/Algorithms-ACWing/aw794_high_precision_division/output && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build ../aw794_high_precision_division/output/edit_cache: phony ../aw794_high_precision_division/output/CMakeFiles/edit_cache.util
+
+# =============================================================================
+# Object build statements for EXECUTABLE target aw794_high_precision_division
+
+
+#############################################
+# Order-only phony target for aw794_high_precision_division
+
+build cmake_object_order_depends_target_aw794_high_precision_division: phony || ../aw794_high_precision_division/output/CMakeFiles/aw794_high_precision_division.dir
+
+build ../aw794_high_precision_division/output/CMakeFiles/aw794_high_precision_division.dir/High_Precision_Division.cpp.o: CXX_COMPILER__aw794_high_precision_division_Debug /Users/matthew/Dev/Algorithms-ACWing/aw794_high_precision_division/High_Precision_Division.cpp || cmake_object_order_depends_target_aw794_high_precision_division
+  DEP_FILE = ../aw794_high_precision_division/output/CMakeFiles/aw794_high_precision_division.dir/High_Precision_Division.cpp.o.d
+  FLAGS = -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++14
+  OBJECT_DIR = ../aw794_high_precision_division/output/CMakeFiles/aw794_high_precision_division.dir
+  OBJECT_FILE_DIR = ../aw794_high_precision_division/output/CMakeFiles/aw794_high_precision_division.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target aw794_high_precision_division
+
+
+#############################################
+# Link the executable ../aw794_high_precision_division/output/aw794_high_precision_division
+
+build ../aw794_high_precision_division/output/aw794_high_precision_division: CXX_EXECUTABLE_LINKER__aw794_high_precision_division_Debug ../aw794_high_precision_division/output/CMakeFiles/aw794_high_precision_division.dir/High_Precision_Division.cpp.o
+  FLAGS = -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = ../aw794_high_precision_division/output/CMakeFiles/aw794_high_precision_division.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ../aw794_high_precision_division/output/aw794_high_precision_division
+  TARGET_PDB = aw794_high_precision_division.dbg
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/matthew/Dev/Algorithms-ACWing/CMakeLists.txt
+# =============================================================================
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build ../aw795_prefix_sum/output/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/matthew/Dev/Algorithms-ACWing/aw795_prefix_sum/output && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/matthew/Dev/Algorithms-ACWing -B/Users/matthew/Dev/Algorithms-ACWing/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build ../aw795_prefix_sum/output/rebuild_cache: phony ../aw795_prefix_sum/output/CMakeFiles/rebuild_cache.util
+
+
+#############################################
+# Utility command for edit_cache
+
+build ../aw795_prefix_sum/output/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/matthew/Dev/Algorithms-ACWing/aw795_prefix_sum/output && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build ../aw795_prefix_sum/output/edit_cache: phony ../aw795_prefix_sum/output/CMakeFiles/edit_cache.util
+
+# =============================================================================
+# Object build statements for EXECUTABLE target aw795_prefix_sum
+
+
+#############################################
+# Order-only phony target for aw795_prefix_sum
+
+build cmake_object_order_depends_target_aw795_prefix_sum: phony || ../aw795_prefix_sum/output/CMakeFiles/aw795_prefix_sum.dir
+
+build ../aw795_prefix_sum/output/CMakeFiles/aw795_prefix_sum.dir/Prefix_Sum.cpp.o: CXX_COMPILER__aw795_prefix_sum_Debug /Users/matthew/Dev/Algorithms-ACWing/aw795_prefix_sum/Prefix_Sum.cpp || cmake_object_order_depends_target_aw795_prefix_sum
+  DEP_FILE = ../aw795_prefix_sum/output/CMakeFiles/aw795_prefix_sum.dir/Prefix_Sum.cpp.o.d
+  FLAGS = -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++14
+  OBJECT_DIR = ../aw795_prefix_sum/output/CMakeFiles/aw795_prefix_sum.dir
+  OBJECT_FILE_DIR = ../aw795_prefix_sum/output/CMakeFiles/aw795_prefix_sum.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target aw795_prefix_sum
+
+
+#############################################
+# Link the executable ../aw795_prefix_sum/output/aw795_prefix_sum
+
+build ../aw795_prefix_sum/output/aw795_prefix_sum: CXX_EXECUTABLE_LINKER__aw795_prefix_sum_Debug ../aw795_prefix_sum/output/CMakeFiles/aw795_prefix_sum.dir/Prefix_Sum.cpp.o
+  FLAGS = -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = ../aw795_prefix_sum/output/CMakeFiles/aw795_prefix_sum.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ../aw795_prefix_sum/output/aw795_prefix_sum
+  TARGET_PDB = aw795_prefix_sum.dbg
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/matthew/Dev/Algorithms-ACWing/CMakeLists.txt
+# =============================================================================
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build ../aw796_prefix_sum_grid/output/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/matthew/Dev/Algorithms-ACWing/aw796_prefix_sum_grid/output && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/matthew/Dev/Algorithms-ACWing -B/Users/matthew/Dev/Algorithms-ACWing/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build ../aw796_prefix_sum_grid/output/rebuild_cache: phony ../aw796_prefix_sum_grid/output/CMakeFiles/rebuild_cache.util
+
+
+#############################################
+# Utility command for edit_cache
+
+build ../aw796_prefix_sum_grid/output/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/matthew/Dev/Algorithms-ACWing/aw796_prefix_sum_grid/output && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build ../aw796_prefix_sum_grid/output/edit_cache: phony ../aw796_prefix_sum_grid/output/CMakeFiles/edit_cache.util
+
+# =============================================================================
+# Object build statements for EXECUTABLE target aw796_prefix_sum_grid
+
+
+#############################################
+# Order-only phony target for aw796_prefix_sum_grid
+
+build cmake_object_order_depends_target_aw796_prefix_sum_grid: phony || ../aw796_prefix_sum_grid/output/CMakeFiles/aw796_prefix_sum_grid.dir
+
+build ../aw796_prefix_sum_grid/output/CMakeFiles/aw796_prefix_sum_grid.dir/Prefix_Sum_Grid.cpp.o: CXX_COMPILER__aw796_prefix_sum_grid_Debug /Users/matthew/Dev/Algorithms-ACWing/aw796_prefix_sum_grid/Prefix_Sum_Grid.cpp || cmake_object_order_depends_target_aw796_prefix_sum_grid
+  DEP_FILE = ../aw796_prefix_sum_grid/output/CMakeFiles/aw796_prefix_sum_grid.dir/Prefix_Sum_Grid.cpp.o.d
+  FLAGS = -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++14
+  OBJECT_DIR = ../aw796_prefix_sum_grid/output/CMakeFiles/aw796_prefix_sum_grid.dir
+  OBJECT_FILE_DIR = ../aw796_prefix_sum_grid/output/CMakeFiles/aw796_prefix_sum_grid.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target aw796_prefix_sum_grid
+
+
+#############################################
+# Link the executable ../aw796_prefix_sum_grid/output/aw796_prefix_sum_grid
+
+build ../aw796_prefix_sum_grid/output/aw796_prefix_sum_grid: CXX_EXECUTABLE_LINKER__aw796_prefix_sum_grid_Debug ../aw796_prefix_sum_grid/output/CMakeFiles/aw796_prefix_sum_grid.dir/Prefix_Sum_Grid.cpp.o
+  FLAGS = -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = ../aw796_prefix_sum_grid/output/CMakeFiles/aw796_prefix_sum_grid.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ../aw796_prefix_sum_grid/output/aw796_prefix_sum_grid
+  TARGET_PDB = aw796_prefix_sum_grid.dbg
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/matthew/Dev/Algorithms-ACWing/CMakeLists.txt
+# =============================================================================
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build ../aw797_difference_array/output/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/matthew/Dev/Algorithms-ACWing/aw797_difference_array/output && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/matthew/Dev/Algorithms-ACWing -B/Users/matthew/Dev/Algorithms-ACWing/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build ../aw797_difference_array/output/rebuild_cache: phony ../aw797_difference_array/output/CMakeFiles/rebuild_cache.util
+
+
+#############################################
+# Utility command for edit_cache
+
+build ../aw797_difference_array/output/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/matthew/Dev/Algorithms-ACWing/aw797_difference_array/output && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build ../aw797_difference_array/output/edit_cache: phony ../aw797_difference_array/output/CMakeFiles/edit_cache.util
+
+# =============================================================================
+# Object build statements for EXECUTABLE target aw797_difference_array
+
+
+#############################################
+# Order-only phony target for aw797_difference_array
+
+build cmake_object_order_depends_target_aw797_difference_array: phony || ../aw797_difference_array/output/CMakeFiles/aw797_difference_array.dir
+
+build ../aw797_difference_array/output/CMakeFiles/aw797_difference_array.dir/Difference_Sum.cpp.o: CXX_COMPILER__aw797_difference_array_Debug /Users/matthew/Dev/Algorithms-ACWing/aw797_difference_array/Difference_Sum.cpp || cmake_object_order_depends_target_aw797_difference_array
+  DEP_FILE = ../aw797_difference_array/output/CMakeFiles/aw797_difference_array.dir/Difference_Sum.cpp.o.d
+  FLAGS = -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++14
+  OBJECT_DIR = ../aw797_difference_array/output/CMakeFiles/aw797_difference_array.dir
+  OBJECT_FILE_DIR = ../aw797_difference_array/output/CMakeFiles/aw797_difference_array.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target aw797_difference_array
+
+
+#############################################
+# Link the executable ../aw797_difference_array/output/aw797_difference_array
+
+build ../aw797_difference_array/output/aw797_difference_array: CXX_EXECUTABLE_LINKER__aw797_difference_array_Debug ../aw797_difference_array/output/CMakeFiles/aw797_difference_array.dir/Difference_Sum.cpp.o
+  FLAGS = -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = ../aw797_difference_array/output/CMakeFiles/aw797_difference_array.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ../aw797_difference_array/output/aw797_difference_array
+  TARGET_PDB = aw797_difference_array.dbg
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/matthew/Dev/Algorithms-ACWing/CMakeLists.txt
+# =============================================================================
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build ../aw798_difference_grid/output/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/matthew/Dev/Algorithms-ACWing/aw798_difference_grid/output && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/matthew/Dev/Algorithms-ACWing -B/Users/matthew/Dev/Algorithms-ACWing/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build ../aw798_difference_grid/output/rebuild_cache: phony ../aw798_difference_grid/output/CMakeFiles/rebuild_cache.util
+
+
+#############################################
+# Utility command for edit_cache
+
+build ../aw798_difference_grid/output/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/matthew/Dev/Algorithms-ACWing/aw798_difference_grid/output && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build ../aw798_difference_grid/output/edit_cache: phony ../aw798_difference_grid/output/CMakeFiles/edit_cache.util
+
+# =============================================================================
+# Object build statements for EXECUTABLE target aw798_difference_grid
+
+
+#############################################
+# Order-only phony target for aw798_difference_grid
+
+build cmake_object_order_depends_target_aw798_difference_grid: phony || ../aw798_difference_grid/output/CMakeFiles/aw798_difference_grid.dir
+
+build ../aw798_difference_grid/output/CMakeFiles/aw798_difference_grid.dir/Difference_Grid.cpp.o: CXX_COMPILER__aw798_difference_grid_Debug /Users/matthew/Dev/Algorithms-ACWing/aw798_difference_grid/Difference_Grid.cpp || cmake_object_order_depends_target_aw798_difference_grid
+  DEP_FILE = ../aw798_difference_grid/output/CMakeFiles/aw798_difference_grid.dir/Difference_Grid.cpp.o.d
+  FLAGS = -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++14
+  OBJECT_DIR = ../aw798_difference_grid/output/CMakeFiles/aw798_difference_grid.dir
+  OBJECT_FILE_DIR = ../aw798_difference_grid/output/CMakeFiles/aw798_difference_grid.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target aw798_difference_grid
+
+
+#############################################
+# Link the executable ../aw798_difference_grid/output/aw798_difference_grid
+
+build ../aw798_difference_grid/output/aw798_difference_grid: CXX_EXECUTABLE_LINKER__aw798_difference_grid_Debug ../aw798_difference_grid/output/CMakeFiles/aw798_difference_grid.dir/Difference_Grid.cpp.o
+  FLAGS = -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = ../aw798_difference_grid/output/CMakeFiles/aw798_difference_grid.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ../aw798_difference_grid/output/aw798_difference_grid
+  TARGET_PDB = aw798_difference_grid.dbg
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/matthew/Dev/Algorithms-ACWing/CMakeLists.txt
+# =============================================================================
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build ../aw799_non_repeat_array/output/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/matthew/Dev/Algorithms-ACWing/aw799_non_repeat_array/output && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/matthew/Dev/Algorithms-ACWing -B/Users/matthew/Dev/Algorithms-ACWing/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build ../aw799_non_repeat_array/output/rebuild_cache: phony ../aw799_non_repeat_array/output/CMakeFiles/rebuild_cache.util
+
+
+#############################################
+# Utility command for edit_cache
+
+build ../aw799_non_repeat_array/output/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/matthew/Dev/Algorithms-ACWing/aw799_non_repeat_array/output && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build ../aw799_non_repeat_array/output/edit_cache: phony ../aw799_non_repeat_array/output/CMakeFiles/edit_cache.util
+
+# =============================================================================
+# Object build statements for EXECUTABLE target aw799_non_repeat_array
+
+
+#############################################
+# Order-only phony target for aw799_non_repeat_array
+
+build cmake_object_order_depends_target_aw799_non_repeat_array: phony || ../aw799_non_repeat_array/output/CMakeFiles/aw799_non_repeat_array.dir
+
+build ../aw799_non_repeat_array/output/CMakeFiles/aw799_non_repeat_array.dir/Non_Repeat_Array.cpp.o: CXX_COMPILER__aw799_non_repeat_array_Debug /Users/matthew/Dev/Algorithms-ACWing/aw799_non_repeat_array/Non_Repeat_Array.cpp || cmake_object_order_depends_target_aw799_non_repeat_array
+  DEP_FILE = ../aw799_non_repeat_array/output/CMakeFiles/aw799_non_repeat_array.dir/Non_Repeat_Array.cpp.o.d
+  FLAGS = -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++14
+  OBJECT_DIR = ../aw799_non_repeat_array/output/CMakeFiles/aw799_non_repeat_array.dir
+  OBJECT_FILE_DIR = ../aw799_non_repeat_array/output/CMakeFiles/aw799_non_repeat_array.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target aw799_non_repeat_array
+
+
+#############################################
+# Link the executable ../aw799_non_repeat_array/output/aw799_non_repeat_array
+
+build ../aw799_non_repeat_array/output/aw799_non_repeat_array: CXX_EXECUTABLE_LINKER__aw799_non_repeat_array_Debug ../aw799_non_repeat_array/output/CMakeFiles/aw799_non_repeat_array.dir/Non_Repeat_Array.cpp.o
+  FLAGS = -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = ../aw799_non_repeat_array/output/CMakeFiles/aw799_non_repeat_array.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ../aw799_non_repeat_array/output/aw799_non_repeat_array
+  TARGET_PDB = aw799_non_repeat_array.dbg
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/matthew/Dev/Algorithms-ACWing/CMakeLists.txt
+# =============================================================================
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build ../aw800_array_target_sum/output/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/matthew/Dev/Algorithms-ACWing/aw800_array_target_sum/output && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/matthew/Dev/Algorithms-ACWing -B/Users/matthew/Dev/Algorithms-ACWing/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build ../aw800_array_target_sum/output/rebuild_cache: phony ../aw800_array_target_sum/output/CMakeFiles/rebuild_cache.util
+
+
+#############################################
+# Utility command for edit_cache
+
+build ../aw800_array_target_sum/output/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/matthew/Dev/Algorithms-ACWing/aw800_array_target_sum/output && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build ../aw800_array_target_sum/output/edit_cache: phony ../aw800_array_target_sum/output/CMakeFiles/edit_cache.util
+
+# =============================================================================
+# Object build statements for EXECUTABLE target aw800_array_target_sum
+
+
+#############################################
+# Order-only phony target for aw800_array_target_sum
+
+build cmake_object_order_depends_target_aw800_array_target_sum: phony || ../aw800_array_target_sum/output/CMakeFiles/aw800_array_target_sum.dir
+
+build ../aw800_array_target_sum/output/CMakeFiles/aw800_array_target_sum.dir/Array_Target_Sum.cpp.o: CXX_COMPILER__aw800_array_target_sum_Debug /Users/matthew/Dev/Algorithms-ACWing/aw800_array_target_sum/Array_Target_Sum.cpp || cmake_object_order_depends_target_aw800_array_target_sum
+  DEP_FILE = ../aw800_array_target_sum/output/CMakeFiles/aw800_array_target_sum.dir/Array_Target_Sum.cpp.o.d
+  FLAGS = -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++14
+  OBJECT_DIR = ../aw800_array_target_sum/output/CMakeFiles/aw800_array_target_sum.dir
+  OBJECT_FILE_DIR = ../aw800_array_target_sum/output/CMakeFiles/aw800_array_target_sum.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target aw800_array_target_sum
+
+
+#############################################
+# Link the executable ../aw800_array_target_sum/output/aw800_array_target_sum
+
+build ../aw800_array_target_sum/output/aw800_array_target_sum: CXX_EXECUTABLE_LINKER__aw800_array_target_sum_Debug ../aw800_array_target_sum/output/CMakeFiles/aw800_array_target_sum.dir/Array_Target_Sum.cpp.o
+  FLAGS = -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = ../aw800_array_target_sum/output/CMakeFiles/aw800_array_target_sum.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ../aw800_array_target_sum/output/aw800_array_target_sum
+  TARGET_PDB = aw800_array_target_sum.dbg
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/matthew/Dev/Algorithms-ACWing/CMakeLists.txt
+# =============================================================================
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build ../aw2818_subarray_two_pointers/output/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/matthew/Dev/Algorithms-ACWing/aw2818_subarray_two_pointers/output && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/matthew/Dev/Algorithms-ACWing -B/Users/matthew/Dev/Algorithms-ACWing/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build ../aw2818_subarray_two_pointers/output/rebuild_cache: phony ../aw2818_subarray_two_pointers/output/CMakeFiles/rebuild_cache.util
+
+
+#############################################
+# Utility command for edit_cache
+
+build ../aw2818_subarray_two_pointers/output/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/matthew/Dev/Algorithms-ACWing/aw2818_subarray_two_pointers/output && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build ../aw2818_subarray_two_pointers/output/edit_cache: phony ../aw2818_subarray_two_pointers/output/CMakeFiles/edit_cache.util
+
+# =============================================================================
+# Object build statements for EXECUTABLE target aw2818_subarray_two_pointers_sum
+
+
+#############################################
+# Order-only phony target for aw2818_subarray_two_pointers_sum
+
+build cmake_object_order_depends_target_aw2818_subarray_two_pointers_sum: phony || ../aw2818_subarray_two_pointers/output/CMakeFiles/aw2818_subarray_two_pointers_sum.dir
+
+build ../aw2818_subarray_two_pointers/output/CMakeFiles/aw2818_subarray_two_pointers_sum.dir/SubArray_Two_Pointers.cpp.o: CXX_COMPILER__aw2818_subarray_two_pointers_sum_Debug /Users/matthew/Dev/Algorithms-ACWing/aw2818_subarray_two_pointers/SubArray_Two_Pointers.cpp || cmake_object_order_depends_target_aw2818_subarray_two_pointers_sum
+  DEP_FILE = ../aw2818_subarray_two_pointers/output/CMakeFiles/aw2818_subarray_two_pointers_sum.dir/SubArray_Two_Pointers.cpp.o.d
+  FLAGS = -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++14
+  OBJECT_DIR = ../aw2818_subarray_two_pointers/output/CMakeFiles/aw2818_subarray_two_pointers_sum.dir
+  OBJECT_FILE_DIR = ../aw2818_subarray_two_pointers/output/CMakeFiles/aw2818_subarray_two_pointers_sum.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target aw2818_subarray_two_pointers_sum
+
+
+#############################################
+# Link the executable ../aw2818_subarray_two_pointers/output/aw2818_subarray_two_pointers_sum
+
+build ../aw2818_subarray_two_pointers/output/aw2818_subarray_two_pointers_sum: CXX_EXECUTABLE_LINKER__aw2818_subarray_two_pointers_sum_Debug ../aw2818_subarray_two_pointers/output/CMakeFiles/aw2818_subarray_two_pointers_sum.dir/SubArray_Two_Pointers.cpp.o
+  FLAGS = -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = ../aw2818_subarray_two_pointers/output/CMakeFiles/aw2818_subarray_two_pointers_sum.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ../aw2818_subarray_two_pointers/output/aw2818_subarray_two_pointers_sum
+  TARGET_PDB = aw2818_subarray_two_pointers_sum.dbg
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/matthew/Dev/Algorithms-ACWing/CMakeLists.txt
+# =============================================================================
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build ../aw801_Binary_find_ones/output/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/matthew/Dev/Algorithms-ACWing/aw801_Binary_find_ones/output && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/matthew/Dev/Algorithms-ACWing -B/Users/matthew/Dev/Algorithms-ACWing/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build ../aw801_Binary_find_ones/output/rebuild_cache: phony ../aw801_Binary_find_ones/output/CMakeFiles/rebuild_cache.util
+
+
+#############################################
+# Utility command for edit_cache
+
+build ../aw801_Binary_find_ones/output/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/matthew/Dev/Algorithms-ACWing/aw801_Binary_find_ones/output && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build ../aw801_Binary_find_ones/output/edit_cache: phony ../aw801_Binary_find_ones/output/CMakeFiles/edit_cache.util
+
+# =============================================================================
+# Object build statements for EXECUTABLE target aw801_Binary_find_ones
+
+
+#############################################
+# Order-only phony target for aw801_Binary_find_ones
+
+build cmake_object_order_depends_target_aw801_Binary_find_ones: phony || ../aw801_Binary_find_ones/output/CMakeFiles/aw801_Binary_find_ones.dir
+
+build ../aw801_Binary_find_ones/output/CMakeFiles/aw801_Binary_find_ones.dir/Binary_Find_Ones.cpp.o: CXX_COMPILER__aw801_Binary_find_ones_Debug /Users/matthew/Dev/Algorithms-ACWing/aw801_Binary_find_ones/Binary_Find_Ones.cpp || cmake_object_order_depends_target_aw801_Binary_find_ones
+  DEP_FILE = ../aw801_Binary_find_ones/output/CMakeFiles/aw801_Binary_find_ones.dir/Binary_Find_Ones.cpp.o.d
+  FLAGS = -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++14
+  OBJECT_DIR = ../aw801_Binary_find_ones/output/CMakeFiles/aw801_Binary_find_ones.dir
+  OBJECT_FILE_DIR = ../aw801_Binary_find_ones/output/CMakeFiles/aw801_Binary_find_ones.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target aw801_Binary_find_ones
+
+
+#############################################
+# Link the executable ../aw801_Binary_find_ones/output/aw801_Binary_find_ones
+
+build ../aw801_Binary_find_ones/output/aw801_Binary_find_ones: CXX_EXECUTABLE_LINKER__aw801_Binary_find_ones_Debug ../aw801_Binary_find_ones/output/CMakeFiles/aw801_Binary_find_ones.dir/Binary_Find_Ones.cpp.o
+  FLAGS = -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = ../aw801_Binary_find_ones/output/CMakeFiles/aw801_Binary_find_ones.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ../aw801_Binary_find_ones/output/aw801_Binary_find_ones
+  TARGET_PDB = aw801_Binary_find_ones.dbg
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/matthew/Dev/Algorithms-ACWing/CMakeLists.txt
+# =============================================================================
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build ../aw801_Binary_find_ones_brute/output/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/matthew/Dev/Algorithms-ACWing/aw801_Binary_find_ones_brute/output && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/matthew/Dev/Algorithms-ACWing -B/Users/matthew/Dev/Algorithms-ACWing/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build ../aw801_Binary_find_ones_brute/output/rebuild_cache: phony ../aw801_Binary_find_ones_brute/output/CMakeFiles/rebuild_cache.util
+
+
+#############################################
+# Utility command for edit_cache
+
+build ../aw801_Binary_find_ones_brute/output/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/matthew/Dev/Algorithms-ACWing/aw801_Binary_find_ones_brute/output && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build ../aw801_Binary_find_ones_brute/output/edit_cache: phony ../aw801_Binary_find_ones_brute/output/CMakeFiles/edit_cache.util
+
+# =============================================================================
+# Object build statements for EXECUTABLE target aw801_Binary_find_ones_brute
+
+
+#############################################
+# Order-only phony target for aw801_Binary_find_ones_brute
+
+build cmake_object_order_depends_target_aw801_Binary_find_ones_brute: phony || ../aw801_Binary_find_ones_brute/output/CMakeFiles/aw801_Binary_find_ones_brute.dir
+
+build ../aw801_Binary_find_ones_brute/output/CMakeFiles/aw801_Binary_find_ones_brute.dir/Binary_Find_Ones_Brute.cpp.o: CXX_COMPILER__aw801_Binary_find_ones_brute_Debug /Users/matthew/Dev/Algorithms-ACWing/aw801_Binary_find_ones_brute/Binary_Find_Ones_Brute.cpp || cmake_object_order_depends_target_aw801_Binary_find_ones_brute
+  DEP_FILE = ../aw801_Binary_find_ones_brute/output/CMakeFiles/aw801_Binary_find_ones_brute.dir/Binary_Find_Ones_Brute.cpp.o.d
+  FLAGS = -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++14
+  OBJECT_DIR = ../aw801_Binary_find_ones_brute/output/CMakeFiles/aw801_Binary_find_ones_brute.dir
+  OBJECT_FILE_DIR = ../aw801_Binary_find_ones_brute/output/CMakeFiles/aw801_Binary_find_ones_brute.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target aw801_Binary_find_ones_brute
+
+
+#############################################
+# Link the executable ../aw801_Binary_find_ones_brute/output/aw801_Binary_find_ones_brute
+
+build ../aw801_Binary_find_ones_brute/output/aw801_Binary_find_ones_brute: CXX_EXECUTABLE_LINKER__aw801_Binary_find_ones_brute_Debug ../aw801_Binary_find_ones_brute/output/CMakeFiles/aw801_Binary_find_ones_brute.dir/Binary_Find_Ones_Brute.cpp.o
+  FLAGS = -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = ../aw801_Binary_find_ones_brute/output/CMakeFiles/aw801_Binary_find_ones_brute.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ../aw801_Binary_find_ones_brute/output/aw801_Binary_find_ones_brute
+  TARGET_PDB = aw801_Binary_find_ones_brute.dbg
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/matthew/Dev/Algorithms-ACWing/CMakeLists.txt
+# =============================================================================
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build ../aw802_Decrete_sum_range/output/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/matthew/Dev/Algorithms-ACWing/aw802_Decrete_sum_range/output && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/matthew/Dev/Algorithms-ACWing -B/Users/matthew/Dev/Algorithms-ACWing/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build ../aw802_Decrete_sum_range/output/rebuild_cache: phony ../aw802_Decrete_sum_range/output/CMakeFiles/rebuild_cache.util
+
+
+#############################################
+# Utility command for edit_cache
+
+build ../aw802_Decrete_sum_range/output/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/matthew/Dev/Algorithms-ACWing/aw802_Decrete_sum_range/output && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build ../aw802_Decrete_sum_range/output/edit_cache: phony ../aw802_Decrete_sum_range/output/CMakeFiles/edit_cache.util
+
+# =============================================================================
+# Object build statements for EXECUTABLE target aw802_Decrete_sum_range
+
+
+#############################################
+# Order-only phony target for aw802_Decrete_sum_range
+
+build cmake_object_order_depends_target_aw802_Decrete_sum_range: phony || ../aw802_Decrete_sum_range/output/CMakeFiles/aw802_Decrete_sum_range.dir
+
+build ../aw802_Decrete_sum_range/output/CMakeFiles/aw802_Decrete_sum_range.dir/Decrete_sum_range.cpp.o: CXX_COMPILER__aw802_Decrete_sum_range_Debug /Users/matthew/Dev/Algorithms-ACWing/aw802_Decrete_sum_range/Decrete_sum_range.cpp || cmake_object_order_depends_target_aw802_Decrete_sum_range
+  DEP_FILE = ../aw802_Decrete_sum_range/output/CMakeFiles/aw802_Decrete_sum_range.dir/Decrete_sum_range.cpp.o.d
+  FLAGS = -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++14
+  OBJECT_DIR = ../aw802_Decrete_sum_range/output/CMakeFiles/aw802_Decrete_sum_range.dir
+  OBJECT_FILE_DIR = ../aw802_Decrete_sum_range/output/CMakeFiles/aw802_Decrete_sum_range.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target aw802_Decrete_sum_range
+
+
+#############################################
+# Link the executable ../aw802_Decrete_sum_range/output/aw802_Decrete_sum_range
+
+build ../aw802_Decrete_sum_range/output/aw802_Decrete_sum_range: CXX_EXECUTABLE_LINKER__aw802_Decrete_sum_range_Debug ../aw802_Decrete_sum_range/output/CMakeFiles/aw802_Decrete_sum_range.dir/Decrete_sum_range.cpp.o
+  FLAGS = -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = ../aw802_Decrete_sum_range/output/CMakeFiles/aw802_Decrete_sum_range.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ../aw802_Decrete_sum_range/output/aw802_Decrete_sum_range
+  TARGET_PDB = aw802_Decrete_sum_range.dbg
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/matthew/Dev/Algorithms-ACWing/CMakeLists.txt
+# =============================================================================
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build ../aw803_Merge_Intervals/output/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/matthew/Dev/Algorithms-ACWing/aw803_Merge_Intervals/output && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/matthew/Dev/Algorithms-ACWing -B/Users/matthew/Dev/Algorithms-ACWing/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build ../aw803_Merge_Intervals/output/rebuild_cache: phony ../aw803_Merge_Intervals/output/CMakeFiles/rebuild_cache.util
+
+
+#############################################
+# Utility command for edit_cache
+
+build ../aw803_Merge_Intervals/output/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/matthew/Dev/Algorithms-ACWing/aw803_Merge_Intervals/output && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build ../aw803_Merge_Intervals/output/edit_cache: phony ../aw803_Merge_Intervals/output/CMakeFiles/edit_cache.util
+
+# =============================================================================
+# Object build statements for EXECUTABLE target aw803_Merge_Intervals
+
+
+#############################################
+# Order-only phony target for aw803_Merge_Intervals
+
+build cmake_object_order_depends_target_aw803_Merge_Intervals: phony || ../aw803_Merge_Intervals/output/CMakeFiles/aw803_Merge_Intervals.dir
+
+build ../aw803_Merge_Intervals/output/CMakeFiles/aw803_Merge_Intervals.dir/Merge_Interval.cpp.o: CXX_COMPILER__aw803_Merge_Intervals_Debug /Users/matthew/Dev/Algorithms-ACWing/aw803_Merge_Intervals/Merge_Interval.cpp || cmake_object_order_depends_target_aw803_Merge_Intervals
+  DEP_FILE = ../aw803_Merge_Intervals/output/CMakeFiles/aw803_Merge_Intervals.dir/Merge_Interval.cpp.o.d
+  FLAGS = -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++14
+  OBJECT_DIR = ../aw803_Merge_Intervals/output/CMakeFiles/aw803_Merge_Intervals.dir
+  OBJECT_FILE_DIR = ../aw803_Merge_Intervals/output/CMakeFiles/aw803_Merge_Intervals.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target aw803_Merge_Intervals
+
+
+#############################################
+# Link the executable ../aw803_Merge_Intervals/output/aw803_Merge_Intervals
+
+build ../aw803_Merge_Intervals/output/aw803_Merge_Intervals: CXX_EXECUTABLE_LINKER__aw803_Merge_Intervals_Debug ../aw803_Merge_Intervals/output/CMakeFiles/aw803_Merge_Intervals.dir/Merge_Interval.cpp.o
+  FLAGS = -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = ../aw803_Merge_Intervals/output/CMakeFiles/aw803_Merge_Intervals.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ../aw803_Merge_Intervals/output/aw803_Merge_Intervals
+  TARGET_PDB = aw803_Merge_Intervals.dbg
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/matthew/Dev/Algorithms-ACWing/CMakeLists.txt
+# =============================================================================
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build ../aw826_Single_Linked_List/output/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/matthew/Dev/Algorithms-ACWing/aw826_Single_Linked_List/output && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/matthew/Dev/Algorithms-ACWing -B/Users/matthew/Dev/Algorithms-ACWing/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build ../aw826_Single_Linked_List/output/rebuild_cache: phony ../aw826_Single_Linked_List/output/CMakeFiles/rebuild_cache.util
+
+
+#############################################
+# Utility command for edit_cache
+
+build ../aw826_Single_Linked_List/output/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/matthew/Dev/Algorithms-ACWing/aw826_Single_Linked_List/output && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build ../aw826_Single_Linked_List/output/edit_cache: phony ../aw826_Single_Linked_List/output/CMakeFiles/edit_cache.util
+
+# =============================================================================
+# Object build statements for EXECUTABLE target aw826_Single_Linked_List
+
+
+#############################################
+# Order-only phony target for aw826_Single_Linked_List
+
+build cmake_object_order_depends_target_aw826_Single_Linked_List: phony || ../aw826_Single_Linked_List/output/CMakeFiles/aw826_Single_Linked_List.dir
+
+build ../aw826_Single_Linked_List/output/CMakeFiles/aw826_Single_Linked_List.dir/Single_Linked_List.cpp.o: CXX_COMPILER__aw826_Single_Linked_List_Debug /Users/matthew/Dev/Algorithms-ACWing/aw826_Single_Linked_List/Single_Linked_List.cpp || cmake_object_order_depends_target_aw826_Single_Linked_List
+  DEP_FILE = ../aw826_Single_Linked_List/output/CMakeFiles/aw826_Single_Linked_List.dir/Single_Linked_List.cpp.o.d
+  FLAGS = -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++14
+  OBJECT_DIR = ../aw826_Single_Linked_List/output/CMakeFiles/aw826_Single_Linked_List.dir
+  OBJECT_FILE_DIR = ../aw826_Single_Linked_List/output/CMakeFiles/aw826_Single_Linked_List.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target aw826_Single_Linked_List
+
+
+#############################################
+# Link the executable ../aw826_Single_Linked_List/output/aw826_Single_Linked_List
+
+build ../aw826_Single_Linked_List/output/aw826_Single_Linked_List: CXX_EXECUTABLE_LINKER__aw826_Single_Linked_List_Debug ../aw826_Single_Linked_List/output/CMakeFiles/aw826_Single_Linked_List.dir/Single_Linked_List.cpp.o
+  FLAGS = -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = ../aw826_Single_Linked_List/output/CMakeFiles/aw826_Single_Linked_List.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ../aw826_Single_Linked_List/output/aw826_Single_Linked_List
+  TARGET_PDB = aw826_Single_Linked_List.dbg
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/matthew/Dev/Algorithms-ACWing/CMakeLists.txt
+# =============================================================================
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build ../aw827_Doubly_Linked_List/output/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/matthew/Dev/Algorithms-ACWing/aw827_Doubly_Linked_List/output && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/matthew/Dev/Algorithms-ACWing -B/Users/matthew/Dev/Algorithms-ACWing/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build ../aw827_Doubly_Linked_List/output/rebuild_cache: phony ../aw827_Doubly_Linked_List/output/CMakeFiles/rebuild_cache.util
+
+
+#############################################
+# Utility command for edit_cache
+
+build ../aw827_Doubly_Linked_List/output/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/matthew/Dev/Algorithms-ACWing/aw827_Doubly_Linked_List/output && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build ../aw827_Doubly_Linked_List/output/edit_cache: phony ../aw827_Doubly_Linked_List/output/CMakeFiles/edit_cache.util
+
+# =============================================================================
+# Object build statements for EXECUTABLE target aw827_Doubly_Linked_List
+
+
+#############################################
+# Order-only phony target for aw827_Doubly_Linked_List
+
+build cmake_object_order_depends_target_aw827_Doubly_Linked_List: phony || ../aw827_Doubly_Linked_List/output/CMakeFiles/aw827_Doubly_Linked_List.dir
+
+build ../aw827_Doubly_Linked_List/output/CMakeFiles/aw827_Doubly_Linked_List.dir/Doubly_Linked_List.cpp.o: CXX_COMPILER__aw827_Doubly_Linked_List_Debug /Users/matthew/Dev/Algorithms-ACWing/aw827_Doubly_Linked_List/Doubly_Linked_List.cpp || cmake_object_order_depends_target_aw827_Doubly_Linked_List
+  DEP_FILE = ../aw827_Doubly_Linked_List/output/CMakeFiles/aw827_Doubly_Linked_List.dir/Doubly_Linked_List.cpp.o.d
+  FLAGS = -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++14
+  OBJECT_DIR = ../aw827_Doubly_Linked_List/output/CMakeFiles/aw827_Doubly_Linked_List.dir
+  OBJECT_FILE_DIR = ../aw827_Doubly_Linked_List/output/CMakeFiles/aw827_Doubly_Linked_List.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target aw827_Doubly_Linked_List
+
+
+#############################################
+# Link the executable ../aw827_Doubly_Linked_List/output/aw827_Doubly_Linked_List
+
+build ../aw827_Doubly_Linked_List/output/aw827_Doubly_Linked_List: CXX_EXECUTABLE_LINKER__aw827_Doubly_Linked_List_Debug ../aw827_Doubly_Linked_List/output/CMakeFiles/aw827_Doubly_Linked_List.dir/Doubly_Linked_List.cpp.o
+  FLAGS = -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = ../aw827_Doubly_Linked_List/output/CMakeFiles/aw827_Doubly_Linked_List.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ../aw827_Doubly_Linked_List/output/aw827_Doubly_Linked_List
+  TARGET_PDB = aw827_Doubly_Linked_List.dbg
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/matthew/Dev/Algorithms-ACWing/CMakeLists.txt
+# =============================================================================
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build ../aw828_Stack_With_Array/output/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/matthew/Dev/Algorithms-ACWing/aw828_Stack_With_Array/output && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/matthew/Dev/Algorithms-ACWing -B/Users/matthew/Dev/Algorithms-ACWing/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build ../aw828_Stack_With_Array/output/rebuild_cache: phony ../aw828_Stack_With_Array/output/CMakeFiles/rebuild_cache.util
+
+
+#############################################
+# Utility command for edit_cache
+
+build ../aw828_Stack_With_Array/output/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/matthew/Dev/Algorithms-ACWing/aw828_Stack_With_Array/output && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build ../aw828_Stack_With_Array/output/edit_cache: phony ../aw828_Stack_With_Array/output/CMakeFiles/edit_cache.util
+
+# =============================================================================
+# Object build statements for EXECUTABLE target aw828_Stack_With_Array
+
+
+#############################################
+# Order-only phony target for aw828_Stack_With_Array
+
+build cmake_object_order_depends_target_aw828_Stack_With_Array: phony || ../aw828_Stack_With_Array/output/CMakeFiles/aw828_Stack_With_Array.dir
+
+build ../aw828_Stack_With_Array/output/CMakeFiles/aw828_Stack_With_Array.dir/Stack_With_Array.cpp.o: CXX_COMPILER__aw828_Stack_With_Array_Debug /Users/matthew/Dev/Algorithms-ACWing/aw828_Stack_With_Array/Stack_With_Array.cpp || cmake_object_order_depends_target_aw828_Stack_With_Array
+  DEP_FILE = ../aw828_Stack_With_Array/output/CMakeFiles/aw828_Stack_With_Array.dir/Stack_With_Array.cpp.o.d
+  FLAGS = -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++14
+  OBJECT_DIR = ../aw828_Stack_With_Array/output/CMakeFiles/aw828_Stack_With_Array.dir
+  OBJECT_FILE_DIR = ../aw828_Stack_With_Array/output/CMakeFiles/aw828_Stack_With_Array.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target aw828_Stack_With_Array
+
+
+#############################################
+# Link the executable ../aw828_Stack_With_Array/output/aw828_Stack_With_Array
+
+build ../aw828_Stack_With_Array/output/aw828_Stack_With_Array: CXX_EXECUTABLE_LINKER__aw828_Stack_With_Array_Debug ../aw828_Stack_With_Array/output/CMakeFiles/aw828_Stack_With_Array.dir/Stack_With_Array.cpp.o
+  FLAGS = -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = ../aw828_Stack_With_Array/output/CMakeFiles/aw828_Stack_With_Array.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ../aw828_Stack_With_Array/output/aw828_Stack_With_Array
+  TARGET_PDB = aw828_Stack_With_Array.dbg
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/matthew/Dev/Algorithms-ACWing/CMakeLists.txt
+# =============================================================================
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build ../aw3302_Expression_order/output/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/matthew/Dev/Algorithms-ACWing/aw3302_Expression_order/output && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/matthew/Dev/Algorithms-ACWing -B/Users/matthew/Dev/Algorithms-ACWing/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build ../aw3302_Expression_order/output/rebuild_cache: phony ../aw3302_Expression_order/output/CMakeFiles/rebuild_cache.util
+
+
+#############################################
+# Utility command for edit_cache
+
+build ../aw3302_Expression_order/output/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/matthew/Dev/Algorithms-ACWing/aw3302_Expression_order/output && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build ../aw3302_Expression_order/output/edit_cache: phony ../aw3302_Expression_order/output/CMakeFiles/edit_cache.util
+
+# =============================================================================
+# Object build statements for EXECUTABLE target aw3302_Expression_order
+
+
+#############################################
+# Order-only phony target for aw3302_Expression_order
+
+build cmake_object_order_depends_target_aw3302_Expression_order: phony || ../aw3302_Expression_order/output/CMakeFiles/aw3302_Expression_order.dir
+
+build ../aw3302_Expression_order/output/CMakeFiles/aw3302_Expression_order.dir/Expression_order.cpp.o: CXX_COMPILER__aw3302_Expression_order_Debug /Users/matthew/Dev/Algorithms-ACWing/aw3302_Expression_order/Expression_order.cpp || cmake_object_order_depends_target_aw3302_Expression_order
+  DEP_FILE = ../aw3302_Expression_order/output/CMakeFiles/aw3302_Expression_order.dir/Expression_order.cpp.o.d
+  FLAGS = -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++14
+  OBJECT_DIR = ../aw3302_Expression_order/output/CMakeFiles/aw3302_Expression_order.dir
+  OBJECT_FILE_DIR = ../aw3302_Expression_order/output/CMakeFiles/aw3302_Expression_order.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target aw3302_Expression_order
+
+
+#############################################
+# Link the executable ../aw3302_Expression_order/output/aw3302_Expression_order
+
+build ../aw3302_Expression_order/output/aw3302_Expression_order: CXX_EXECUTABLE_LINKER__aw3302_Expression_order_Debug ../aw3302_Expression_order/output/CMakeFiles/aw3302_Expression_order.dir/Expression_order.cpp.o
+  FLAGS = -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = ../aw3302_Expression_order/output/CMakeFiles/aw3302_Expression_order.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ../aw3302_Expression_order/output/aw3302_Expression_order
+  TARGET_PDB = aw3302_Expression_order.dbg
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/matthew/Dev/Algorithms-ACWing/CMakeLists.txt
+# =============================================================================
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build ../aw829_Queue_With_Array/output/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/matthew/Dev/Algorithms-ACWing/aw829_Queue_With_Array/output && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/matthew/Dev/Algorithms-ACWing -B/Users/matthew/Dev/Algorithms-ACWing/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build ../aw829_Queue_With_Array/output/rebuild_cache: phony ../aw829_Queue_With_Array/output/CMakeFiles/rebuild_cache.util
+
+
+#############################################
+# Utility command for edit_cache
+
+build ../aw829_Queue_With_Array/output/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/matthew/Dev/Algorithms-ACWing/aw829_Queue_With_Array/output && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build ../aw829_Queue_With_Array/output/edit_cache: phony ../aw829_Queue_With_Array/output/CMakeFiles/edit_cache.util
+
+# =============================================================================
+# Object build statements for EXECUTABLE target aw829_Queue_With_Array
+
+
+#############################################
+# Order-only phony target for aw829_Queue_With_Array
+
+build cmake_object_order_depends_target_aw829_Queue_With_Array: phony || ../aw829_Queue_With_Array/output/CMakeFiles/aw829_Queue_With_Array.dir
+
+build ../aw829_Queue_With_Array/output/CMakeFiles/aw829_Queue_With_Array.dir/Queue_With_Array.cpp.o: CXX_COMPILER__aw829_Queue_With_Array_Debug /Users/matthew/Dev/Algorithms-ACWing/aw829_Queue_With_Array/Queue_With_Array.cpp || cmake_object_order_depends_target_aw829_Queue_With_Array
+  DEP_FILE = ../aw829_Queue_With_Array/output/CMakeFiles/aw829_Queue_With_Array.dir/Queue_With_Array.cpp.o.d
+  FLAGS = -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++14
+  OBJECT_DIR = ../aw829_Queue_With_Array/output/CMakeFiles/aw829_Queue_With_Array.dir
+  OBJECT_FILE_DIR = ../aw829_Queue_With_Array/output/CMakeFiles/aw829_Queue_With_Array.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target aw829_Queue_With_Array
+
+
+#############################################
+# Link the executable ../aw829_Queue_With_Array/output/aw829_Queue_With_Array
+
+build ../aw829_Queue_With_Array/output/aw829_Queue_With_Array: CXX_EXECUTABLE_LINKER__aw829_Queue_With_Array_Debug ../aw829_Queue_With_Array/output/CMakeFiles/aw829_Queue_With_Array.dir/Queue_With_Array.cpp.o
+  FLAGS = -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = ../aw829_Queue_With_Array/output/CMakeFiles/aw829_Queue_With_Array.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ../aw829_Queue_With_Array/output/aw829_Queue_With_Array
+  TARGET_PDB = aw829_Queue_With_Array.dbg
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/matthew/Dev/Algorithms-ACWing/CMakeLists.txt
+# =============================================================================
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build ../aw830_Ascending_Stack/output/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/matthew/Dev/Algorithms-ACWing/aw830_Ascending_Stack/output && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/matthew/Dev/Algorithms-ACWing -B/Users/matthew/Dev/Algorithms-ACWing/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build ../aw830_Ascending_Stack/output/rebuild_cache: phony ../aw830_Ascending_Stack/output/CMakeFiles/rebuild_cache.util
+
+
+#############################################
+# Utility command for edit_cache
+
+build ../aw830_Ascending_Stack/output/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/matthew/Dev/Algorithms-ACWing/aw830_Ascending_Stack/output && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build ../aw830_Ascending_Stack/output/edit_cache: phony ../aw830_Ascending_Stack/output/CMakeFiles/edit_cache.util
+
+# =============================================================================
+# Object build statements for EXECUTABLE target aw830_Ascending_Stack
+
+
+#############################################
+# Order-only phony target for aw830_Ascending_Stack
+
+build cmake_object_order_depends_target_aw830_Ascending_Stack: phony || ../aw830_Ascending_Stack/output/CMakeFiles/aw830_Ascending_Stack.dir
+
+build ../aw830_Ascending_Stack/output/CMakeFiles/aw830_Ascending_Stack.dir/Ascending_Stack.cpp.o: CXX_COMPILER__aw830_Ascending_Stack_Debug /Users/matthew/Dev/Algorithms-ACWing/aw830_Ascending_Stack/Ascending_Stack.cpp || cmake_object_order_depends_target_aw830_Ascending_Stack
+  DEP_FILE = ../aw830_Ascending_Stack/output/CMakeFiles/aw830_Ascending_Stack.dir/Ascending_Stack.cpp.o.d
+  FLAGS = -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++14
+  OBJECT_DIR = ../aw830_Ascending_Stack/output/CMakeFiles/aw830_Ascending_Stack.dir
+  OBJECT_FILE_DIR = ../aw830_Ascending_Stack/output/CMakeFiles/aw830_Ascending_Stack.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target aw830_Ascending_Stack
+
+
+#############################################
+# Link the executable ../aw830_Ascending_Stack/output/aw830_Ascending_Stack
+
+build ../aw830_Ascending_Stack/output/aw830_Ascending_Stack: CXX_EXECUTABLE_LINKER__aw830_Ascending_Stack_Debug ../aw830_Ascending_Stack/output/CMakeFiles/aw830_Ascending_Stack.dir/Ascending_Stack.cpp.o
+  FLAGS = -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = ../aw830_Ascending_Stack/output/CMakeFiles/aw830_Ascending_Stack.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ../aw830_Ascending_Stack/output/aw830_Ascending_Stack
+  TARGET_PDB = aw830_Ascending_Stack.dbg
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/matthew/Dev/Algorithms-ACWing/CMakeLists.txt
+# =============================================================================
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build ../lc51_backtrack_queens/output/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/matthew/Dev/Algorithms-ACWing/lc51_backtrack_queens/output && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/matthew/Dev/Algorithms-ACWing -B/Users/matthew/Dev/Algorithms-ACWing/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build ../lc51_backtrack_queens/output/rebuild_cache: phony ../lc51_backtrack_queens/output/CMakeFiles/rebuild_cache.util
+
+
+#############################################
+# Utility command for edit_cache
+
+build ../lc51_backtrack_queens/output/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/matthew/Dev/Algorithms-ACWing/lc51_backtrack_queens/output && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build ../lc51_backtrack_queens/output/edit_cache: phony ../lc51_backtrack_queens/output/CMakeFiles/edit_cache.util
+
+# =============================================================================
+# Object build statements for EXECUTABLE target lc51_backtrack_queens
+
+
+#############################################
+# Order-only phony target for lc51_backtrack_queens
+
+build cmake_object_order_depends_target_lc51_backtrack_queens: phony || ../lc51_backtrack_queens/output/CMakeFiles/lc51_backtrack_queens.dir
+
+build ../lc51_backtrack_queens/output/CMakeFiles/lc51_backtrack_queens.dir/NQueen.cpp.o: CXX_COMPILER__lc51_backtrack_queens_Debug /Users/matthew/Dev/Algorithms-ACWing/lc51_backtrack_queens/NQueen.cpp || cmake_object_order_depends_target_lc51_backtrack_queens
+  DEP_FILE = ../lc51_backtrack_queens/output/CMakeFiles/lc51_backtrack_queens.dir/NQueen.cpp.o.d
+  FLAGS = -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++14
+  OBJECT_DIR = ../lc51_backtrack_queens/output/CMakeFiles/lc51_backtrack_queens.dir
+  OBJECT_FILE_DIR = ../lc51_backtrack_queens/output/CMakeFiles/lc51_backtrack_queens.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target lc51_backtrack_queens
+
+
+#############################################
+# Link the executable ../lc51_backtrack_queens/output/lc51_backtrack_queens
+
+build ../lc51_backtrack_queens/output/lc51_backtrack_queens: CXX_EXECUTABLE_LINKER__lc51_backtrack_queens_Debug ../lc51_backtrack_queens/output/CMakeFiles/lc51_backtrack_queens.dir/NQueen.cpp.o
+  FLAGS = -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = ../lc51_backtrack_queens/output/CMakeFiles/lc51_backtrack_queens.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ../lc51_backtrack_queens/output/lc51_backtrack_queens
+  TARGET_PDB = lc51_backtrack_queens.dbg
+
+# =============================================================================
 # Target aliases.
 
 build aw1076_bfs_maze: phony ../aw1076_bfs_maze/output/aw1076_bfs_maze
@@ -843,9 +2200,15 @@ build aw1100_bfs_cow: phony ../aw1100_bfs_cow/output/aw1100_bfs_cow
 
 build aw1106_peak_bfs: phony ../aw1106_peak_bfs/output/aw1106_peak_bfs
 
+build aw1107_bfs_rubik: phony ../aw1107_bfs_rubik/output/aw1107_bfs_rubik
+
 build aw173_grid_dist: phony ../aw173_grid_dist/output/aw173_grid_dist
 
 build aw188_bfs_knight: phony ../aw188_bfs_knight/output/aw188_bfs_knight
+
+build aw2818_subarray_two_pointers_sum: phony ../aw2818_subarray_two_pointers/output/aw2818_subarray_two_pointers_sum
+
+build aw3302_Expression_order: phony ../aw3302_Expression_order/output/aw3302_Expression_order
 
 build aw785_quicksort: phony ../aw785_quicksort/output/aw785_quicksort
 
@@ -858,6 +2221,46 @@ build aw788_inversepair: phony ../aw788_inversepair/output/aw788_inversepair
 build aw789_bs_range: phony ../aw789_bs_range/output/aw789_bs_range
 
 build aw790_bs_root_cubed: phony ../aw790_bs_root_cubed/output/aw790_bs_root_cubed
+
+build aw791_high_precision_addition: phony ../aw791_high_precision_addition/output/aw791_high_precision_addition
+
+build aw792_high_precision_subtraction: phony ../aw792_high_precision_subtraction/output/aw792_high_precision_subtraction
+
+build aw793_high_precision_multiplication: phony ../aw793_high_precision_multiplication/output/aw793_high_precision_multiplication
+
+build aw794_high_precision_division: phony ../aw794_high_precision_division/output/aw794_high_precision_division
+
+build aw795_prefix_sum: phony ../aw795_prefix_sum/output/aw795_prefix_sum
+
+build aw796_prefix_sum_grid: phony ../aw796_prefix_sum_grid/output/aw796_prefix_sum_grid
+
+build aw797_difference_array: phony ../aw797_difference_array/output/aw797_difference_array
+
+build aw798_difference_grid: phony ../aw798_difference_grid/output/aw798_difference_grid
+
+build aw799_non_repeat_array: phony ../aw799_non_repeat_array/output/aw799_non_repeat_array
+
+build aw800_array_target_sum: phony ../aw800_array_target_sum/output/aw800_array_target_sum
+
+build aw801_Binary_find_ones: phony ../aw801_Binary_find_ones/output/aw801_Binary_find_ones
+
+build aw801_Binary_find_ones_brute: phony ../aw801_Binary_find_ones_brute/output/aw801_Binary_find_ones_brute
+
+build aw802_Decrete_sum_range: phony ../aw802_Decrete_sum_range/output/aw802_Decrete_sum_range
+
+build aw803_Merge_Intervals: phony ../aw803_Merge_Intervals/output/aw803_Merge_Intervals
+
+build aw826_Single_Linked_List: phony ../aw826_Single_Linked_List/output/aw826_Single_Linked_List
+
+build aw827_Doubly_Linked_List: phony ../aw827_Doubly_Linked_List/output/aw827_Doubly_Linked_List
+
+build aw828_Stack_With_Array: phony ../aw828_Stack_With_Array/output/aw828_Stack_With_Array
+
+build aw829_Queue_With_Array: phony ../aw829_Queue_With_Array/output/aw829_Queue_With_Array
+
+build aw830_Ascending_Stack: phony ../aw830_Ascending_Stack/output/aw830_Ascending_Stack
+
+build lc51_backtrack_queens: phony ../lc51_backtrack_queens/output/lc51_backtrack_queens
 
 # =============================================================================
 # Folder targets.
@@ -900,6 +2303,13 @@ build ../aw1106_peak_bfs/output/all: phony ../aw1106_peak_bfs/output/aw1106_peak
 # =============================================================================
 
 #############################################
+# Folder: /Users/matthew/Dev/Algorithms-ACWing/aw1107_bfs_rubik/output
+
+build ../aw1107_bfs_rubik/output/all: phony ../aw1107_bfs_rubik/output/aw1107_bfs_rubik
+
+# =============================================================================
+
+#############################################
 # Folder: /Users/matthew/Dev/Algorithms-ACWing/aw173_grid_dist/output
 
 build ../aw173_grid_dist/output/all: phony ../aw173_grid_dist/output/aw173_grid_dist
@@ -910,6 +2320,20 @@ build ../aw173_grid_dist/output/all: phony ../aw173_grid_dist/output/aw173_grid_
 # Folder: /Users/matthew/Dev/Algorithms-ACWing/aw188_bfs_knight/output
 
 build ../aw188_bfs_knight/output/all: phony ../aw188_bfs_knight/output/aw188_bfs_knight
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/matthew/Dev/Algorithms-ACWing/aw2818_subarray_two_pointers/output
+
+build ../aw2818_subarray_two_pointers/output/all: phony ../aw2818_subarray_two_pointers/output/aw2818_subarray_two_pointers_sum
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/matthew/Dev/Algorithms-ACWing/aw3302_Expression_order/output
+
+build ../aw3302_Expression_order/output/all: phony ../aw3302_Expression_order/output/aw3302_Expression_order
 
 # =============================================================================
 
@@ -956,9 +2380,149 @@ build ../aw790_bs_root_cubed/output/all: phony ../aw790_bs_root_cubed/output/aw7
 # =============================================================================
 
 #############################################
+# Folder: /Users/matthew/Dev/Algorithms-ACWing/aw791_high_precision_addition/output
+
+build ../aw791_high_precision_addition/output/all: phony ../aw791_high_precision_addition/output/aw791_high_precision_addition
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/matthew/Dev/Algorithms-ACWing/aw792_high_precision_subtraction/output
+
+build ../aw792_high_precision_subtraction/output/all: phony ../aw792_high_precision_subtraction/output/aw792_high_precision_subtraction
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/matthew/Dev/Algorithms-ACWing/aw793_high_precision_multiplication/output
+
+build ../aw793_high_precision_multiplication/output/all: phony ../aw793_high_precision_multiplication/output/aw793_high_precision_multiplication
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/matthew/Dev/Algorithms-ACWing/aw794_high_precision_division/output
+
+build ../aw794_high_precision_division/output/all: phony ../aw794_high_precision_division/output/aw794_high_precision_division
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/matthew/Dev/Algorithms-ACWing/aw795_prefix_sum/output
+
+build ../aw795_prefix_sum/output/all: phony ../aw795_prefix_sum/output/aw795_prefix_sum
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/matthew/Dev/Algorithms-ACWing/aw796_prefix_sum_grid/output
+
+build ../aw796_prefix_sum_grid/output/all: phony ../aw796_prefix_sum_grid/output/aw796_prefix_sum_grid
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/matthew/Dev/Algorithms-ACWing/aw797_difference_array/output
+
+build ../aw797_difference_array/output/all: phony ../aw797_difference_array/output/aw797_difference_array
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/matthew/Dev/Algorithms-ACWing/aw798_difference_grid/output
+
+build ../aw798_difference_grid/output/all: phony ../aw798_difference_grid/output/aw798_difference_grid
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/matthew/Dev/Algorithms-ACWing/aw799_non_repeat_array/output
+
+build ../aw799_non_repeat_array/output/all: phony ../aw799_non_repeat_array/output/aw799_non_repeat_array
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/matthew/Dev/Algorithms-ACWing/aw800_array_target_sum/output
+
+build ../aw800_array_target_sum/output/all: phony ../aw800_array_target_sum/output/aw800_array_target_sum
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/matthew/Dev/Algorithms-ACWing/aw801_Binary_find_ones/output
+
+build ../aw801_Binary_find_ones/output/all: phony ../aw801_Binary_find_ones/output/aw801_Binary_find_ones
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/matthew/Dev/Algorithms-ACWing/aw801_Binary_find_ones_brute/output
+
+build ../aw801_Binary_find_ones_brute/output/all: phony ../aw801_Binary_find_ones_brute/output/aw801_Binary_find_ones_brute
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/matthew/Dev/Algorithms-ACWing/aw802_Decrete_sum_range/output
+
+build ../aw802_Decrete_sum_range/output/all: phony ../aw802_Decrete_sum_range/output/aw802_Decrete_sum_range
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/matthew/Dev/Algorithms-ACWing/aw803_Merge_Intervals/output
+
+build ../aw803_Merge_Intervals/output/all: phony ../aw803_Merge_Intervals/output/aw803_Merge_Intervals
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/matthew/Dev/Algorithms-ACWing/aw826_Single_Linked_List/output
+
+build ../aw826_Single_Linked_List/output/all: phony ../aw826_Single_Linked_List/output/aw826_Single_Linked_List
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/matthew/Dev/Algorithms-ACWing/aw827_Doubly_Linked_List/output
+
+build ../aw827_Doubly_Linked_List/output/all: phony ../aw827_Doubly_Linked_List/output/aw827_Doubly_Linked_List
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/matthew/Dev/Algorithms-ACWing/aw828_Stack_With_Array/output
+
+build ../aw828_Stack_With_Array/output/all: phony ../aw828_Stack_With_Array/output/aw828_Stack_With_Array
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/matthew/Dev/Algorithms-ACWing/aw829_Queue_With_Array/output
+
+build ../aw829_Queue_With_Array/output/all: phony ../aw829_Queue_With_Array/output/aw829_Queue_With_Array
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/matthew/Dev/Algorithms-ACWing/aw830_Ascending_Stack/output
+
+build ../aw830_Ascending_Stack/output/all: phony ../aw830_Ascending_Stack/output/aw830_Ascending_Stack
+
+# =============================================================================
+
+#############################################
 # Folder: /Users/matthew/Dev/Algorithms-ACWing/cmake-build-debug
 
-build all: phony ../aw785_quicksort/output/all ../aw786_quicksortfindk/output/all ../aw787_mergesort/output/all ../aw788_inversepair/output/all ../aw789_bs_range/output/all ../aw790_bs_root_cubed/output/all ../aw1097_flood_fill_lakes/output/all ../aw1098_castle_rooms/output/all ../aw1106_peak_bfs/output/all ../aw1076_bfs_maze/output/all ../aw188_bfs_knight/output/all ../aw1100_bfs_cow/output/all ../aw173_grid_dist/output/all
+build all: phony ../aw785_quicksort/output/all ../aw786_quicksortfindk/output/all ../aw787_mergesort/output/all ../aw788_inversepair/output/all ../aw789_bs_range/output/all ../aw790_bs_root_cubed/output/all ../aw1097_flood_fill_lakes/output/all ../aw1098_castle_rooms/output/all ../aw1106_peak_bfs/output/all ../aw1076_bfs_maze/output/all ../aw188_bfs_knight/output/all ../aw1100_bfs_cow/output/all ../aw173_grid_dist/output/all ../aw1107_bfs_rubik/output/all ../aw791_high_precision_addition/output/all ../aw792_high_precision_subtraction/output/all ../aw793_high_precision_multiplication/output/all ../aw794_high_precision_division/output/all ../aw795_prefix_sum/output/all ../aw796_prefix_sum_grid/output/all ../aw797_difference_array/output/all ../aw798_difference_grid/output/all ../aw799_non_repeat_array/output/all ../aw800_array_target_sum/output/all ../aw2818_subarray_two_pointers/output/all ../aw801_Binary_find_ones/output/all ../aw801_Binary_find_ones_brute/output/all ../aw802_Decrete_sum_range/output/all ../aw803_Merge_Intervals/output/all ../aw826_Single_Linked_List/output/all ../aw827_Doubly_Linked_List/output/all ../aw828_Stack_With_Array/output/all ../aw3302_Expression_order/output/all ../aw829_Queue_With_Array/output/all ../aw830_Ascending_Stack/output/all ../lc51_backtrack_queens/output/all
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/matthew/Dev/Algorithms-ACWing/lc51_backtrack_queens/output
+
+build ../lc51_backtrack_queens/output/all: phony ../lc51_backtrack_queens/output/lc51_backtrack_queens
 
 # =============================================================================
 # Built-in targets
@@ -967,14 +2531,14 @@ build all: phony ../aw785_quicksort/output/all ../aw786_quicksortfindk/output/al
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | ../CMakeLists.txt ../aw1076_bfs_maze/CMakeLists.txt ../aw1097_flood_fill_lakes/CMakeLists.txt ../aw1098_castle_rooms/CMakeLists.txt ../aw1100_bfs_cow/CMakeLists.txt ../aw1106_peak_bfs/CMakeLists.txt ../aw173_grid_dist/CMakeLists.txt ../aw188_bfs_knight/CMakeLists.txt ../aw785_quicksort/CMakeLists.txt ../aw786_quicksortfindk/CMakeLists.txt ../aw787_mergesort/CMakeLists.txt ../aw788_inversepair/CMakeLists.txt ../aw789_bs_range/CMakeLists.txt ../aw790_bs_root_cubed/CMakeLists.txt /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/GNU-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Apple-GNU-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Apple-GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.21.1/CMakeCCompiler.cmake CMakeFiles/3.21.1/CMakeCXXCompiler.cmake CMakeFiles/3.21.1/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | ../CMakeLists.txt ../aw1076_bfs_maze/CMakeLists.txt ../aw1097_flood_fill_lakes/CMakeLists.txt ../aw1098_castle_rooms/CMakeLists.txt ../aw1100_bfs_cow/CMakeLists.txt ../aw1106_peak_bfs/CMakeLists.txt ../aw1107_bfs_rubik/CMakeLists.txt ../aw173_grid_dist/CMakeLists.txt ../aw188_bfs_knight/CMakeLists.txt ../aw2818_subarray_two_pointers/CMakeLists.txt ../aw3302_Expression_order/CMakeLists.txt ../aw785_quicksort/CMakeLists.txt ../aw786_quicksortfindk/CMakeLists.txt ../aw787_mergesort/CMakeLists.txt ../aw788_inversepair/CMakeLists.txt ../aw789_bs_range/CMakeLists.txt ../aw790_bs_root_cubed/CMakeLists.txt ../aw791_high_precision_addition/CMakeLists.txt ../aw792_high_precision_subtraction/CMakeLists.txt ../aw793_high_precision_multiplication/CMakeLists.txt ../aw794_high_precision_division/CMakeLists.txt ../aw795_prefix_sum/CMakeLists.txt ../aw796_prefix_sum_grid/CMakeLists.txt ../aw797_difference_array/CMakeLists.txt ../aw798_difference_grid/CMakeLists.txt ../aw799_non_repeat_array/CMakeLists.txt ../aw800_array_target_sum/CMakeLists.txt ../aw801_Binary_find_ones/CMakeLists.txt ../aw801_Binary_find_ones_brute/CMakeLists.txt ../aw802_Decrete_sum_range/CMakeLists.txt ../aw803_Merge_Intervals/CMakeLists.txt ../aw826_Single_Linked_List/CMakeLists.txt ../aw827_Doubly_Linked_List/CMakeLists.txt ../aw828_Stack_With_Array/CMakeLists.txt ../aw829_Queue_With_Array/CMakeLists.txt ../aw830_Ascending_Stack/CMakeLists.txt ../lc51_backtrack_queens/CMakeLists.txt /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/GNU-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Apple-GNU-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Apple-GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.21.1/CMakeCCompiler.cmake CMakeFiles/3.21.1/CMakeCXXCompiler.cmake CMakeFiles/3.21.1/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build ../CMakeLists.txt ../aw1076_bfs_maze/CMakeLists.txt ../aw1097_flood_fill_lakes/CMakeLists.txt ../aw1098_castle_rooms/CMakeLists.txt ../aw1100_bfs_cow/CMakeLists.txt ../aw1106_peak_bfs/CMakeLists.txt ../aw173_grid_dist/CMakeLists.txt ../aw188_bfs_knight/CMakeLists.txt ../aw785_quicksort/CMakeLists.txt ../aw786_quicksortfindk/CMakeLists.txt ../aw787_mergesort/CMakeLists.txt ../aw788_inversepair/CMakeLists.txt ../aw789_bs_range/CMakeLists.txt ../aw790_bs_root_cubed/CMakeLists.txt /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/GNU-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Apple-GNU-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Apple-GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.21.1/CMakeCCompiler.cmake CMakeFiles/3.21.1/CMakeCXXCompiler.cmake CMakeFiles/3.21.1/CMakeSystem.cmake: phony
+build ../CMakeLists.txt ../aw1076_bfs_maze/CMakeLists.txt ../aw1097_flood_fill_lakes/CMakeLists.txt ../aw1098_castle_rooms/CMakeLists.txt ../aw1100_bfs_cow/CMakeLists.txt ../aw1106_peak_bfs/CMakeLists.txt ../aw1107_bfs_rubik/CMakeLists.txt ../aw173_grid_dist/CMakeLists.txt ../aw188_bfs_knight/CMakeLists.txt ../aw2818_subarray_two_pointers/CMakeLists.txt ../aw3302_Expression_order/CMakeLists.txt ../aw785_quicksort/CMakeLists.txt ../aw786_quicksortfindk/CMakeLists.txt ../aw787_mergesort/CMakeLists.txt ../aw788_inversepair/CMakeLists.txt ../aw789_bs_range/CMakeLists.txt ../aw790_bs_root_cubed/CMakeLists.txt ../aw791_high_precision_addition/CMakeLists.txt ../aw792_high_precision_subtraction/CMakeLists.txt ../aw793_high_precision_multiplication/CMakeLists.txt ../aw794_high_precision_division/CMakeLists.txt ../aw795_prefix_sum/CMakeLists.txt ../aw796_prefix_sum_grid/CMakeLists.txt ../aw797_difference_array/CMakeLists.txt ../aw798_difference_grid/CMakeLists.txt ../aw799_non_repeat_array/CMakeLists.txt ../aw800_array_target_sum/CMakeLists.txt ../aw801_Binary_find_ones/CMakeLists.txt ../aw801_Binary_find_ones_brute/CMakeLists.txt ../aw802_Decrete_sum_range/CMakeLists.txt ../aw803_Merge_Intervals/CMakeLists.txt ../aw826_Single_Linked_List/CMakeLists.txt ../aw827_Doubly_Linked_List/CMakeLists.txt ../aw828_Stack_With_Array/CMakeLists.txt ../aw829_Queue_With_Array/CMakeLists.txt ../aw830_Ascending_Stack/CMakeLists.txt ../lc51_backtrack_queens/CMakeLists.txt /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/GNU-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Apple-GNU-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Apple-GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.21.1/CMakeCCompiler.cmake CMakeFiles/3.21.1/CMakeCXXCompiler.cmake CMakeFiles/3.21.1/CMakeSystem.cmake: phony
 
 
 #############################################

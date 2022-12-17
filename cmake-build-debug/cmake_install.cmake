@@ -102,6 +102,121 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/Users/matthew/Dev/Algorithms-ACWing/aw173_grid_dist/output/cmake_install.cmake")
 endif()
 
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/Users/matthew/Dev/Algorithms-ACWing/aw1107_bfs_rubik/output/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/Users/matthew/Dev/Algorithms-ACWing/aw791_high_precision_addition/output/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/Users/matthew/Dev/Algorithms-ACWing/aw792_high_precision_subtraction/output/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/Users/matthew/Dev/Algorithms-ACWing/aw793_high_precision_multiplication/output/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/Users/matthew/Dev/Algorithms-ACWing/aw794_high_precision_division/output/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/Users/matthew/Dev/Algorithms-ACWing/aw795_prefix_sum/output/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/Users/matthew/Dev/Algorithms-ACWing/aw796_prefix_sum_grid/output/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/Users/matthew/Dev/Algorithms-ACWing/aw797_difference_array/output/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/Users/matthew/Dev/Algorithms-ACWing/aw798_difference_grid/output/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/Users/matthew/Dev/Algorithms-ACWing/aw799_non_repeat_array/output/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/Users/matthew/Dev/Algorithms-ACWing/aw800_array_target_sum/output/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/Users/matthew/Dev/Algorithms-ACWing/aw2818_subarray_two_pointers/output/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/Users/matthew/Dev/Algorithms-ACWing/aw801_Binary_find_ones/output/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/Users/matthew/Dev/Algorithms-ACWing/aw801_Binary_find_ones_brute/output/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/Users/matthew/Dev/Algorithms-ACWing/aw802_Decrete_sum_range/output/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/Users/matthew/Dev/Algorithms-ACWing/aw803_Merge_Intervals/output/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/Users/matthew/Dev/Algorithms-ACWing/aw826_Single_Linked_List/output/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/Users/matthew/Dev/Algorithms-ACWing/aw827_Doubly_Linked_List/output/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/Users/matthew/Dev/Algorithms-ACWing/aw828_Stack_With_Array/output/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/Users/matthew/Dev/Algorithms-ACWing/aw3302_Expression_order/output/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/Users/matthew/Dev/Algorithms-ACWing/aw829_Queue_With_Array/output/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/Users/matthew/Dev/Algorithms-ACWing/aw830_Ascending_Stack/output/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/Users/matthew/Dev/Algorithms-ACWing/lc51_backtrack_queens/output/cmake_install.cmake")
+endif()
+
 if(CMAKE_INSTALL_COMPONENT)
   set(CMAKE_INSTALL_MANIFEST "install_manifest_${CMAKE_INSTALL_COMPONENT}.txt")
 else()

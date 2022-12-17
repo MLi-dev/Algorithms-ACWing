@@ -1,0 +1,33 @@
+Given an array with length n
+with m operations, each operation contains l, r, c, means add c in the range [l, r]
+printout the new array
+
+Notes:
+1. Construct a difference array, assume array s is prefix summation of array a, then a is the "DIFFERENCE ARRAY" of the s array.
+   Here when you construct, when you get array passed in, assume it is summation array, and for each index subtract by prev index.
+2. Insert function. Takes in l, r indexes and c. arr[l]+=c, arr[r+1]-=c.
+3. Construct summation array, b[i]+=b[i-1];
+
+Input
+n, m
+array
+l, r, c
+
+output
+final array
+
+Range
+1<=n, m <=100000,
+1<=l<=r<=n,
+-1000 <=c <=1000
+-1000 <= element <=1000
+
+Input
+6 3
+1 2 2 1 2 1
+1 3 1
+3 5 1
+1 6 1
+
+Output
+3 4 5 3 4 2

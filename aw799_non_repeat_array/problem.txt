@@ -1,0 +1,32 @@
+Given an array of integer with length n, find the longest subarray that doesn't have repeated number
+
+
+Things to remember: Return int resp for longest length of non-repeating array.
+1. Need 2 arrays a[N] and cnt[N], cnt[N] tracks number of times element occurs.
+2. General Template:
+    for(int i = 0, j = 0; i<n; i++) {
+           //Do something if needed for i. In this problem, cnt[a[i]]++;
+            while(j<=i && check(i, j)) { //Check function here is cnt[a[i]]>1
+            //Do something before you move the j pointer. Ex: In this problem, update count by cnt[a[j]]--;
+            j++
+            }
+        }
+3. resp max(resp, i-j+1);
+
+Input:
+n
+n integers
+
+Output:
+the longest length of non repeat subarray
+
+Range:
+1<=n<=10^5
+
+Sample input:
+5
+1 2 2 3 5
+
+Sample Output:
+3
+

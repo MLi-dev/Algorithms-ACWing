@@ -1,0 +1,25 @@
+Given two positive Integer, calculate the sum
+
+Things to Remember:
+1. For loop based on which vector has the bigger size (Need "if" condition for main checking sizes).
+2. vector<int> add() function needs int t. Use t keep track of A[i] + B[i].
+    push into vector(t&10);
+    t/=10;
+3. At end of for loop, check if t != 0, then push 1 into vector.
+
+Input:
+integer 1
+integer 2
+
+output
+sum
+
+Range:
+1<= len <=10^6
+
+Input Sample
+12
+23
+
+Output
+35
